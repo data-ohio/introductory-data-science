@@ -1,0 +1,47 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:
+  numbered: True
+chapters:
+- file: 1/1_curation
+  sections:    
+    - file: 1/1/1_1_data_types
+    - file: 1/2/1_2_acquire_data
+    - file: 1/3/1_3_organize_data
+      sections:
+        - file: 1/3/intro_python
+        - file: 1/3/intro_pandas
+        - file: 1/3/scaling
+    - file: 1/4/1_4_clean_data
+- file: 2/2_visualization
+  sections:
+    - file: 2/1/2_1_traditional_plots
+    - file: 2/2/2_2_charting_techniques
+    - file: 2/3/2_3_dynamic_plotting
+    - file: 2/4/2_4_distribution
+    - file: 2/5/2_5_time_series
+    - file: 2/6/2_6_misleading
+- file: 3/3_models
+  sections:
+    - file: 3/1/3_1_statistical
+    - file: 3/2/3_2_estimator
+    - file: 3/3/3_3_simulation
+    - file: 3/4/3_4_loss
+    - file: 3/5/3_5_diagnostics
+    - file: 3/6/3_6_estimation
+- file: 4/4_learning
+  sections:
+    - file: 4/1/4_1_machine
+    - file: 4/2/4_2_supervised
+    - file: 4/3/4_3_unsupervised
+    - file: 4/4/4_4_sentiment
+- file: 5/5_ethics
+  sections:
+    - file: 5/1/5_1_laws
+    - file: 5/2/5_2_discrimination
+    - file: 5/3/5_3_transparency
+    - file: 5/4/5_4_sample_bias
+
