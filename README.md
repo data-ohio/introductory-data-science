@@ -16,7 +16,7 @@ From the parent of introductory-data-science, do
 	
 ### Publishing to GitHub Pages
 
-See the [JupyterBook general posting instructions](introductory-data-science, do)
+See the [JupyterBook general posting instructions](https://jupyterbook.org/en/stable/start/publish.html)
 
 From within introductory-data-science, do
 
