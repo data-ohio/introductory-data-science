@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search &#8212; Introductory Data Science</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script src="_static/searchtools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="#" />
+  <script src="searchindex.js" defer></script>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">Introductory Data Science</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="#" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="1/1_curation.html">
+   1. Data Curation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1/1/1_1_data_types.html">
+     1.1. Types and Sources of Data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1/2/1_2_acquire_data.html">
+     1.2. Collecting Data
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="1/3/1_3_organize_data.html">
+     1.3. Organizing and Standardizing Data
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="1/3/intro_python.html">
+       1.3.1. Introduction to Python
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="1/3/intro_pandas.html">
+       1.3.2. Introduction to Pandas
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="1/3/scaling.html">
+       1.3.3. Scaling and Normalizing data
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="1/4/1_4_clean_data.html">
+     1.4. Cleaning data
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="2/2_visualization.html">
+   2. Enhanced data visualization
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2/1/2_1_traditional_plots.html">
+     2.1. Traditional Plots
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2/2/2_2_charting_techniques.html">
+     2.2. Single vs. Two or More Variables
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2/3/2_3_dynamic_plotting.html">
+     2.3. Dynamic Visualization
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2/4/2_4_distribution.html">
+     2.4. Distribution Maps
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2/5/2_5_time_series.html">
+     2.5. Time Series Plots
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="2/6/2_6_misleading.html">
+     2.6. Misleading Graphs
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="3/3_models.html">
+   3. Statistical models, estimation, and prediction
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="3/1/3_1_statistical.html">
+     3.1. Statistical Model
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="3/2/3_2_estimator.html">
+     3.2. Estimator and Sampling Distribution
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="3/3/3_3_simulation.html">
+     3.3. Simulation-Based Estimation and Prediction
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="3/4/3_4_loss.html">
+     3.4. * Loss Function and Decision
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="3/5/3_5_diagnostics.html">
+     3.5. * Model Diagnostics
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="3/6/3_6_estimation.html">
+     3.6. * Estimation (mathematical approaches)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="4/4_learning.html">
+   4. Machine learning and statistical learning
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="4/1/4_1_machine.html">
+     4.1. Machine Learning
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="4/2/4_2_supervised.html">
+     4.2. Supervised Learning
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="4/3/4_3_unsupervised.html">
+     4.3. Unsupervised Learning
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="4/4/4_4_sentiment.html">
+     4.4. * Sentiment Analysis
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="5/5_ethics.html">
+   5. Data ethics
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="5/1/5_1_laws.html">
+     5.1. Laws and Regulations
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="5/2/5_2_discrimination.html">
+     5.2. Unfair Discrimination and Social Bias
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="5/3/5_3_transparency.html">
+     5.3. Transparency of Methods and Analysis
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="5/4/5_4_sample_bias.html">
+     5.4. Sampling Bias
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1></h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <h1 id="search-documentation">Search</h1>
+  
+  <noscript>
+  <div class="admonition warning">
+  <p>
+    Please activate JavaScript to enable the search
+    functionality.
+  </p>
+  </div>
+  </noscript>
+  
+  
+  <p>
+    Searching for multiple words only shows matches that contain
+    all words.
+  </p>
+  
+  
+  <form action="" method="get">
+    <input type="text" name="q" aria-labelledby="search-documentation" value="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+    <input type="submit" value="search" />
+    <span id="search-progress" style="padding-left: 10px"></span>
+  </form>
+  
+  
+  
+  <div id="search-results">
+  
+  </div>
+  
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Martin J. Mohlenkamp and ...<br/>
+    
+        &copy; Copyright 2022.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
