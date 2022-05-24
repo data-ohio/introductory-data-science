@@ -15,7 +15,8 @@ Formulate statistical inference as a decision problem, specify a generative stat
 * Choose among mean, median, and trimmed mean as an estimator in a simple model, when the target is the center of the distribution and the loss function is squared error loss.  (Note that the choice will depend on the generative model).
 * Understand 0-1 loss for a two-choice problem.
 * Demonstrate that the loss function determines the target of estimation (e.g., estimation of a quantile can be accomplished by minimization of an asymmetric absolute error loss function).  
-* Make use of squared error predictive loss in a simple linear regression setting.  •Design a loss function for a problem of the student’s choosing.
+* Make use of squared error predictive loss in a simple linear regression setting.
+* Design a loss function for a problem of the student’s choosing.
 
 {cite}`TMM026`
 ```

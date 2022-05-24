@@ -21,6 +21,10 @@ This book is designed to satisfy [TMM026-Introductory Data Science](https://www.
 Each section here corresponds to the Learning Outcome with the same number.
 Sections {numref}`%s <sec:3_4_loss>`, {numref}`%s <sec:3_5_diagnostics>`, {numref}`%s <sec:3_6_estimation>`, and {numref}`%s <sec:4_4_sentiment>` are considered optional under TMM026 and are marked with a * in their title. 
 
+We use [Python](https://www.python.org/) as the programming language, but do not assume the reader has any prior knowledge of Python or any programming experience.
+Some of the suggested readings contain examples using the [R](https://www.r-project.org/) language, but the reader does not need to understand how those work.
+
+
 Typically, someone writes a book because either
 * they think they have something new and important to say, or
 * they think they can explain better than existing books.
