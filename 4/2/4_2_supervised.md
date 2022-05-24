@@ -31,3 +31,21 @@ Students will be able to classify data using supervised machine learning techniq
 
 {cite}`TMM026`
 ```
+Readings:
+* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
+  - [15. Prediction](https://inferentialthinking.com/chapters/15/Prediction.html)
+    * [15.1. Correlation](https://inferentialthinking.com/chapters/15/1/Correlation.html)
+    * [15.2. The Regression Line](https://inferentialthinking.com/chapters/15/2/Regression_Line.html)
+    * [15.3. The Method of Least Squares](https://inferentialthinking.com/chapters/15/3/Method_of_Least_Squares.html)
+    * [15.4. Least Squares Regression](https://inferentialthinking.com/chapters/15/4/Least_Squares_Regression.html)
+    * [15.5. Visual Diagnostics](https://inferentialthinking.com/chapters/15/5/Visual_Diagnostics.html)
+    * [15.6. Numerical Diagnostics](https://inferentialthinking.com/chapters/15/6/Numerical_Diagnostics.html)
+  - [17. Classification](https://inferentialthinking.com/chapters/17/Classification.html)
+    * [17.1. Nearest Neighbors](https://inferentialthinking.com/chapters/17/1/Nearest_Neighbors.html)
+    * [17.2. Training and Testing](https://inferentialthinking.com/chapters/17/2/Training_and_Testing.html)
+    * [17.3. Rows of Tables](https://inferentialthinking.com/chapters/17/3/Rows_of_Tables.html)
+    * [17.4. Implementing the Classifier](https://inferentialthinking.com/chapters/17/4/Implementing_the_Classifier.html)
+    * [17.5. The Accuracy of the Classifier](https://inferentialthinking.com/chapters/17/5/Accuracy_of_the_Classifier.html)
+    * [17.6. Multiple Regression](https://inferentialthinking.com/chapters/17/6/Multiple_Regression.html)
+	
+	

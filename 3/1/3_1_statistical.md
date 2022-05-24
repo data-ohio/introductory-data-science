@@ -14,3 +14,12 @@ Students will be able to write and implement generative models for situations ra
 
 {cite}`TMM026`
 ```
+* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
+  - [9. Randomness](https://inferentialthinking.com/chapters/09/Randomness.html)
+    * [9.1. Conditional Statements](https://inferentialthinking.com/chapters/09/1/Conditional_Statements.html)
+    * [9.2. Iteration](https://inferentialthinking.com/chapters/09/2/Iteration.html)
+    * [9.3. Simulation](https://inferentialthinking.com/chapters/09/3/Simulation.html)
+  - [10. Sampling and Empirical Distributions](https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)
+    * [10.1. Empirical Distributions](https://inferentialthinking.com/chapters/10/1/Empirical_Distributions.html)
+    * [10.2. Sampling from a Population](https://inferentialthinking.com/chapters/10/2/Sampling_from_a_Population.html)
+	

@@ -14,3 +14,6 @@ Students will be able to estimate the parameters of a model, use simulation meth
 
 {cite}`TMM026`
 ```
+* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
+  - [10. Sampling and Empirical Distributions](https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)
+    * [10.3. Empirical Distribution of a Statistic](https://inferentialthinking.com/chapters/10/3/Empirical_Distribution_of_a_Statistic.html)

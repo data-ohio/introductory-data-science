@@ -15,3 +15,7 @@ Students will be able to classify and summarize data using traditional plots.
  
 {cite}`TMM026`
 ```
+Readings:
+* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
+  - [7. Visualization](https://inferentialthinking.com/chapters/07/Visualization.html) 
+    * Initial material on Scatter Plots and Line Graphs

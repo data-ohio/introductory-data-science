@@ -15,3 +15,10 @@ Students will be able to use simulation methods to understand the implications o
 
 {cite}`TMM026`
 ```
+Readings:
+* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
+  - [9. Randomness](https://inferentialthinking.com/chapters/09/Randomness.html)
+    * [9.4. The Monty Hall Problem](https://inferentialthinking.com/chapters/09/4/Monty_Hall_Problem.html)
+    * [9.5. Finding Probabilities](https://inferentialthinking.com/chapters/09/5/Finding_Probabilities.html)
+  - [13. Estimation](https://inferentialthinking.com/chapters/13/Estimation.html)
+    * [13.1. Percentiles](https://inferentialthinking.com/chapters/13/1/Percentiles.html)

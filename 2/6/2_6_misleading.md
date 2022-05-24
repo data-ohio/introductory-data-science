@@ -32,3 +32,8 @@ Students will be able to locate data visualizations and deconstruct the graph in
 
 {cite}`TMM026`
 ```
+Readings:
+* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
+  - [7. Visualization](https://inferentialthinking.com/chapters/07/Visualization.html)
+    * [7.2. Visualizing Numerical Distributions](https://inferentialthinking.com/chapters/07/2/Visualizing_Numerical_Distributions.html)
+	  - [7.2.4. The Area Principle](https://inferentialthinking.com/chapters/07/2/Visualizing_Numerical_Distributions.html#the-area-principle)

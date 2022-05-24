@@ -22,3 +22,9 @@ Students will be able to select appropriate charting techniques based on the typ
   
 {cite}`TMM026`
 ```
+Readings:
+* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
+  - [7. Visualization](https://inferentialthinking.com/chapters/07/Visualization.html) 
+    * [7.1. Visualizing Categorical Distributions](https://inferentialthinking.com/chapters/07/1/Visualizing_Categorical_Distributions.html)
+	* [7.2. Visualizing Numerical Distributions](https://inferentialthinking.com/chapters/07/2/Visualizing_Numerical_Distributions.html)
+	* [7.3. Overlaid Graphs](https://inferentialthinking.com/chapters/07/3/Overlaid_Graphs.html)
