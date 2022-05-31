@@ -34,6 +34,22 @@ Instead, the goal is to organize existing high-quality materials to support a co
 We rely on publicly available material from several sources and
 would like to particularly acknowledge {cite}`DATA8text,DATA100text,BA-KA-HO:2021`.
 
+## What is Data Science and why should you care about it?
+
+As stated above, others have already exlained this well, so:
+
+Readings:
+* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
+  * [1. What is Data Science?](https://inferentialthinking.com/chapters/01/what-is-data-science.html)
+    * [1.1. Chapter 1: Introduction](https://inferentialthinking.com/chapters/01/1/intro.html)
+	* [1.2. Why Data Science?](https://inferentialthinking.com/chapters/01/2/why-data-science.html)
+* From [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`:
+  * [1. The Data Science Lifecycle](http://www.textbook.ds100.org/ch/01/lifecycle_intro.html)
+    * [1.1. Asking a Question](http://www.textbook.ds100.org/ch/01/lifecycle_question.html)
+	* [1.2. Obtaining Data](http://www.textbook.ds100.org/ch/01/lifecycle_obtain.html)
+	* [1.3. Understanding the Data](http://www.textbook.ds100.org/ch/01/lifecycle_data.html)
+	* [1.4. Understanding the World](http://www.textbook.ds100.org/ch/01/lifecycle_world.html)
+
 
 ## Bibliography
 ```{bibliography}

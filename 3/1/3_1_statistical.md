@@ -22,4 +22,5 @@ Students will be able to write and implement generative models for situations ra
   - [10. Sampling and Empirical Distributions](https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)
     * [10.1. Empirical Distributions](https://inferentialthinking.com/chapters/10/1/Empirical_Distributions.html)
     * [10.2. Sampling from a Population](https://inferentialthinking.com/chapters/10/2/Sampling_from_a_Population.html)
-	
+* From [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`:
+  * [3.1. The Urn Model](http://www.textbook.ds100.org/ch/03/theory_urn.html)
