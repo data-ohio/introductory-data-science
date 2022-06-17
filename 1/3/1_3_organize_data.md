@@ -14,3 +14,5 @@ prepared to answer a given data analytical question.
   
 {cite}`TMM026`
 ```
+Before organizing and standardizing data, sometimes one must clean the data, as described in {numref}`Section %s <sec:1_4_clean_data>`.
+The process of cleaning, organizing, and standardizing is sometimes called "Data Wrangling". 

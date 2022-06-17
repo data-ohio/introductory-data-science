@@ -13,3 +13,11 @@ Students will be able to acquire raw data from a variety of sources.
  
 {cite}`TMM026`
 ```
+Readings:
+* From [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`:
+  * [8. Wrangling Files](http://www.textbook.ds100.org/ch/08/files_intro.html)  
+    * [8.1. Data Source Examples](http://www.textbook.ds100.org/ch/08/files_datasets.html)  
+    * [8.2. File Formats](http://www.textbook.ds100.org/ch/08/files_formats.html)  
+
+  
+  
