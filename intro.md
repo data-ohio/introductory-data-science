@@ -50,6 +50,10 @@ Readings:
 	* [1.3. Understanding the Data](http://www.textbook.ds100.org/ch/01/lifecycle_data.html)
 	* [1.4. Understanding the World](http://www.textbook.ds100.org/ch/01/lifecycle_world.html)
 
+## Acknowledgements
+
+* Shadrack Afful Mensah contributed by:
+  * evaluating material from {cite}`BEUZEN:2021` for inclusion
 
 ## Bibliography
 ```{bibliography}

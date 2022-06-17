@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Introductory Data Science
-author: Martin J. Mohlenkamp and ...
+author: Martin J. Mohlenkamp
 copyright: "2022"
 #logo: logo.png
 only_build_toc_files : true
