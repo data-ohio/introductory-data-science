@@ -42,8 +42,6 @@ In {numref}`sec:intro_pandas` we will learn about the more complex and more powe
 * How would you use `np.arange` to create `array([ 1.5,  1. ,  0.5,  0. , -0.5])`?
 ```
 
-% What percentage of Napoleon's army survived his Russian campaign? 
-
 ## Further resources
 
 * From [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html) {cite}`BEUZEN:2021`:

@@ -13,9 +13,11 @@ chapters:
     - file: 1/3/1_3_organize_data
       sections:
         - file: 1/3/intro_python
-        - file: 1/3/intro_pandas
+        - file: 1/3/organize_table
         - file: 1/3/scaling
     - file: 1/4/1_4_clean_data
+      sections:
+        - file: 1/4/intro_pandas
 - file: 2/2_visualization
   sections:
     - file: 2/1/2_1_traditional_plots
