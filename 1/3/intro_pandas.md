@@ -1,3 +1,4 @@
+(sec:intro_pandas)=
 # Introduction to Pandas
 
 Pandas is a python data analysis library. 
