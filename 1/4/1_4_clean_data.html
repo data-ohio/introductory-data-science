@@ -52,7 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="2. Enhanced data visualization" href="../../2/2_visualization.html" />
+    <link rel="next" title="1.4.1. Introduction to Pandas" href="intro_pandas.html" />
     <link rel="prev" title="1.3.3. Scaling and Normalizing data" href="../3/scaling.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -145,8 +145,8 @@ const thebe_selector_output = ".output, .cell_output"
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../3/intro_pandas.html">
-       1.3.2. Introduction to Pandas
+      <a class="reference internal" href="../3/organize_table.html">
+       1.3.2. Organizing in Tables
       </a>
      </li>
      <li class="toctree-l3">
@@ -156,10 +156,27 @@ const thebe_selector_output = ".output, .cell_output"
      </li>
     </ul>
    </li>
-   <li class="toctree-l2 current active">
+   <li class="toctree-l2 current active has-children">
     <a class="current reference internal" href="#">
      1.4. Cleaning data
     </a>
+    <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+    <label for="toctree-checkbox-3">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="intro_pandas.html">
+       1.4.1. Introduction to Pandas
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="wrangling.html">
+       1.4.2. Data Wrangling
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -167,8 +184,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../2/2_visualization.html">
    2. Enhanced data visualization
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -209,8 +226,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../3/3_models.html">
    3. Statistical models, estimation, and prediction
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-  <label for="toctree-checkbox-4">
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -251,8 +268,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../4/4_learning.html">
    4. Machine learning and statistical learning
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
+  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -283,8 +300,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../5/5_ethics.html">
    5. Data ethics
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
-  <label for="toctree-checkbox-6">
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -513,23 +530,8 @@ for missing values.</p></li>
 </ul>
 <p><span id="id1">[<a class="reference internal" href="../../intro.html#id13" title="Ohio Department of Higher Education. TMM026-Introductory Data Science. 12 2021. URL: https://www.ohiohighered.org/sites/default/files/uploads/transfer/policy/Introductory%20to%20Data%20Science%20Learning%20Outcomes%20%2812.3.21%29.pdf.">OhioDoHEducation21</a>]</span></p>
 </div>
-<p>Readings:</p>
-<ul class="simple">
-<li><p>From <a class="reference external" href="http://www.textbook.ds100.org/">Principles and Techniques of Data Science</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id9" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Principles and Techniques of Data Science. Self published, 2022. URL: http://www.textbook.ds100.org/.">LGN22</a>]</span>:</p>
-<ul>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/09/wrangling_intro.html">9. Wrangling Dataframes</a></p>
-<ul>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/09/wrangling_co2.html">9.1. Example: Wrangling CO2 Measurements from Mauna Loa Observatory</a></p></li>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/09/wrangling_checks.html">9.2. Quality Checks</a></p></li>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/09/wrangling_missing.html">9.3. Missing Values and Records</a></p></li>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/09/wrangling_transformations.html">9.4. Transformations and Timestamps</a></p></li>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/09/wrangling_structure.html">9.5. Modifying Structure</a></p></li>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/09/wrangling_restaurants.html">9.6. Example: Wrangling Restaurant Safety Violations</a></p></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -566,10 +568,10 @@ for missing values.</p></li>
             <p class="prev-next-title"><span class="section-number">1.3.3. </span>Scaling and Normalizing data</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../../2/2_visualization.html" title="next page">
+    <a class='right-next' id="next-link" href="intro_pandas.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">2. </span>Enhanced data visualization</p>
+        <p class="prev-next-title"><span class="section-number">1.4.1. </span>Introduction to Pandas</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

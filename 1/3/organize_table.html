@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>1.3.2. Introduction to Pandas &#8212; Introductory Data Science</title>
+    <title>1.3.2. Organizing in Tables &#8212; Introductory Data Science</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -146,7 +146,7 @@ const thebe_selector_output = ".output, .cell_output"
      </li>
      <li class="toctree-l3 current active">
       <a class="current reference internal" href="#">
-       1.3.2. Introduction to Pandas
+       1.3.2. Organizing in Tables
       </a>
      </li>
      <li class="toctree-l3">
@@ -156,10 +156,27 @@ const thebe_selector_output = ".output, .cell_output"
      </li>
     </ul>
    </li>
-   <li class="toctree-l2">
+   <li class="toctree-l2 has-children">
     <a class="reference internal" href="../4/1_4_clean_data.html">
      1.4. Cleaning data
     </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+    <label for="toctree-checkbox-3">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../4/intro_pandas.html">
+       1.4.1. Introduction to Pandas
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../4/wrangling.html">
+       1.4.2. Data Wrangling
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -167,8 +184,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../2/2_visualization.html">
    2. Enhanced data visualization
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -209,8 +226,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../3/3_models.html">
    3. Statistical models, estimation, and prediction
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-  <label for="toctree-checkbox-4">
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -251,8 +268,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../4/4_learning.html">
    4. Machine learning and statistical learning
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
+  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -283,8 +300,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../5/5_ethics.html">
    5. Data ethics
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
-  <label for="toctree-checkbox-6">
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -401,7 +418,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/data-ohio/introductory-data-science/issues/new?title=Issue%20on%20page%20%2F1/3/intro_pandas.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/data-ohio/introductory-data-science/issues/new?title=Issue%20on%20page%20%2F1/3/organize_table.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -429,7 +446,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../../_sources/1/3/intro_pandas.md"
+        <a href="../../_sources/1/3/organize_table.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -478,7 +495,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Introduction to Pandas</h1>
+                <h1>Organizing in Tables</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -490,56 +507,43 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="introduction-to-pandas">
-<h1><span class="section-number">1.3.2. </span>Introduction to Pandas<a class="headerlink" href="#introduction-to-pandas" title="Permalink to this headline">#</a></h1>
-<p>Pandas is a python data analysis library.
-You can load it into a python session with</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>import pandas as pd
-</pre></div>
+  <section class="tex2jax_ignore mathjax_ignore" id="organizing-in-tables">
+<span id="sec-organize"></span><h1><span class="section-number">1.3.2. </span>Organizing in Tables<a class="headerlink" href="#organizing-in-tables" title="Permalink to this headline">#</a></h1>
+<p>Our readings, from <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id1">[<a class="reference internal" href="../../intro.html#id8" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>, show how to create tables and manipulate them to organize the data in them.
+These again use the <code class="docutils literal notranslate"><span class="pre">datascience</span></code> library, especially its <code class="docutils literal notranslate"><span class="pre">Table</span></code> object.
+In <a class="reference internal" href="../4/intro_pandas.html#sec-intro-pandas"><span class="std std-numref">Section 1.4.1</span></a> we will learn about the more complex and more powerful <code class="docutils literal notranslate"><span class="pre">dataframe</span></code> object in the <code class="docutils literal notranslate"><span class="pre">pandas</span></code> library.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/03/programming-in-python.html">3. Programming in Python</a></p>
+<ul>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/03/4/Introduction_to_Tables.html">3.4. Introduction to Tables</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/06/Tables.html">6. Tables</a></p>
+<ul>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/06/1/Sorting_Rows.html">6.1. Sorting Rows</a></p></li>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/06/2/Selecting_Rows.html">6.2. Selecting Rows</a></p></li>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/06/3/Example_Population_Trends.html">6.3. Example: Population Trends</a></p></li>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/06/4/Example_Sex_Ratios.html">6.4. Example: Sex Ratios</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/08/Functions_and_Tables.html">8. Functions and Tables</a></p>
+<ul>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/08/1/Applying_a_Function_to_a_Column.html">8.1. Applying a Function to a Column</a></p></li>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/08/2/Classifying_by_One_Variable.html">8.2. Classifying by One Variable</a></p></li>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/08/3/Cross-Classifying_by_More_than_One_Variable.html">8.3. Cross-Classifying by More than One Variable</a></p></li>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/08/4/Joining_Tables_by_Columns.html">8.4. Joining Tables by Columns</a></p></li>
+</ul>
+</li>
+</ul>
+<div class="important admonition">
+<p class="admonition-title">Reading Questions</p>
+<ul class="simple">
+<li><p>What percentage of Napoleon’s army survived his Russian campaign?</p></li>
+<li><p>How would you select all the NBA players whose position was center (“C”) and then sort them by salary?</p></li>
+<li><p>How would you give every player a 2% raise and store this in a new column?</p></li>
+<li><p>Which ice cream cone gives the most stars per $?</p></li>
+</ul>
 </div>
-<p>Readings:</p>
-<ul class="simple">
-<li><p>From <a class="reference external" href="http://www.textbook.ds100.org/">Principles and Techniques of Data Science</a> <span id="id1">[<a class="reference internal" href="../../intro.html#id9" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Principles and Techniques of Data Science. Self published, 2022. URL: http://www.textbook.ds100.org/.">LGN22</a>]</span>:</p>
-<ul>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/06/pandas_intro.html">6. Working With Dataframes Using pandas</a></p>
-<ul>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/06/pandas_subsetting.html">6.1. Subsetting</a></p></li>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/06/pandas_aggregating.html">6.2. Aggregating</a></p></li>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/06/pandas_joining.html">6.3. Joining</a></p></li>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/06/pandas_transforming.html">6.4. Transforming</a></p></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Further resources:</p>
-<ul class="simple">
-<li><p>From <a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/README.html">Python Programming for Data Science</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id12" title="Tomas Beuzen. Python Programming for Data Science. Self-published, 2021. URL: https://www.tomasbeuzen.com/python-programming-for-data-science/README.html.">Beu21</a>]</span>:</p>
-<ul>
-<li><p><a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter7-pandas.html">Chapter 7: Introduction to Pandas</a></p>
-<ul>
-<li><p><a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter7-pandas.html#pandas-series">2. Pandas Series</a></p></li>
-<li><p><a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter7-pandas.html#pandas-dataframes">3. Pandas DataFrames</a></p></li>
-</ul>
-</li>
-<li><p><a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter8-wrangling-basics.html">Chapter 8: Basic Data Wrangling With Pandas</a></p>
-<ul>
-<li><p><a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter8-wrangling-basics.html#dataframe-characteristics">1. DataFrame Characteristics</a></p></li>
-<li><p><a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter8-wrangling-basics.html#basic-dataframe-manipulations">2. Basic DataFrame Manipulations</a></p></li>
-<li><p><a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter8-wrangling-basics.html#dataframe-reshaping">3. DataFrame Reshaping</a></p></li>
-<li><p><a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter8-wrangling-basics.html#working-with-multiple-dataframes">4. Working with Multiple DataFrames</a></p></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>From the <a class="reference external" href="https://pandas.pydata.org/">pandas project</a>:</p>
-<ul>
-<li><p><a class="reference external" href="https://pandas.pydata.org/docs/getting_started/intro_tutorials/">Getting started tutorials</a></p></li>
-<li><p><a class="reference external" href="https://pandas.pydata.org/docs/user_guide/index.html#user-guide">User Guide</a></p></li>
-<li><p><a class="reference external" href="https://pandas.pydata.org/docs/reference/index.html">API reference (documentation)</a></p></li>
-</ul>
-</li>
-</ul>
 </section>
 
     <script type="text/x-thebe-config">
