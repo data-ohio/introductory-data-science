@@ -1,3 +1,4 @@
+(sec:collect_data)=
 # Collecting Data
 
 ```{admonition} Learning Outcome

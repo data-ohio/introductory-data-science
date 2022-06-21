@@ -1,3 +1,4 @@
+(sec:organize)=
 # Organizing in Tables
 
 Our readings, from [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`, show how to create tables and manipulate them to organize the data in them.
@@ -17,7 +18,7 @@ In {numref}`sec:intro_pandas` we will learn about the more complex and more powe
   * [8.4. Joining Tables by Columns](https://inferentialthinking.com/chapters/08/4/Joining_Tables_by_Columns.html)
   
   
-```{admonition} Reading Question
+```{admonition} Reading Questions
 :class: important
 * What percentage of Napoleon's army survived his Russian campaign? 
 * How would you select all the NBA players whose position was center ("C") and then sort them by salary?
