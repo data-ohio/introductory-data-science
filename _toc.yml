@@ -18,6 +18,7 @@ chapters:
     - file: 1/4/1_4_clean_data
       sections:
         - file: 1/4/intro_pandas
+        - file: 1/4/wrangling
 - file: 2/2_visualization
   sections:
     - file: 2/1/2_1_traditional_plots
