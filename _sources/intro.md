@@ -52,8 +52,7 @@ Readings:
 
 ## Acknowledgements
 
-* Shadrack Afful Mensah contributed by:
-  * evaluating material from {cite}`BEUZEN:2021` for inclusion
+* Shadrack Afful Mensah contributed by evaluating material from {cite}`BEUZEN:2021` and {cite}`DATA100text` for inclusion.
 
 ## Bibliography
 ```{bibliography}

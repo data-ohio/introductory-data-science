@@ -16,3 +16,7 @@ Students will be able to develop an analytic model and trendline for a time seri
 
 {cite}`TMM026`
 ```
+Our readings, from [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, ...
+* [11. Data Visualization](http://www.textbook.ds100.org/ch/11/viz_intro.html)
+  * [11.4. Incorporating the Data Design](http://www.textbook.ds100.org/ch/11/viz_data_design.html)
+    * [11.4.1. Data Collected over Time](http://www.textbook.ds100.org/ch/11/viz_data_design.html#data-collected-over-time)

@@ -28,3 +28,11 @@ Readings:
     * [7.1. Visualizing Categorical Distributions](https://inferentialthinking.com/chapters/07/1/Visualizing_Categorical_Distributions.html)
 	* [7.2. Visualizing Numerical Distributions](https://inferentialthinking.com/chapters/07/2/Visualizing_Numerical_Distributions.html)
 	* [7.3. Overlaid Graphs](https://inferentialthinking.com/chapters/07/3/Overlaid_Graphs.html)
+
+Our readings, from [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, ...
+* [10. Exploratory Data Analysis](http://www.textbook.ds100.org/ch/10/eda_intro.html)
+  * [10.1. Feature Types](http://www.textbook.ds100.org/ch/10/eda_feature_types.html)
+  * [10.2. What to Look For in a Distribution](http://www.textbook.ds100.org/ch/10/eda_distributions.html)
+  * [10.3. What to Look For in a Relationship](http://www.textbook.ds100.org/ch/10/eda_relationships.html)
+  * [10.4. Guidelines for Exploration](http://www.textbook.ds100.org/ch/10/eda_guidelines.html)
+  * [10.5. Example: Sale Prices for Houses](http://www.textbook.ds100.org/ch/10/eda_example.html)
