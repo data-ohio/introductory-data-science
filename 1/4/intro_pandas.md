@@ -21,6 +21,11 @@ Our readings are from [Principles and Techniques of Data Science](http://www.tex
   * [Chapter 7: Introduction to Pandas](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter7-pandas.html)
     * [2. Pandas Series](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter7-pandas.html#pandas-series)
     * [3. Pandas DataFrames](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter7-pandas.html#pandas-dataframes)
+	
+* From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
+  * [3. Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
+    * [Introducing Pandas Objects](https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html)
+    * [Data Indexing and Selection](https://jakevdp.github.io/PythonDataScienceHandbook/03.02-data-indexing-and-selection.html)
 
 * From the [pandas project](https://pandas.pydata.org/):
   * [Getting started tutorials](https://pandas.pydata.org/docs/getting_started/intro_tutorials/)

@@ -22,3 +22,7 @@ Our readings, from [Principles and Techniques of Data Science](http://www.textbo
     * [2. Basic DataFrame Manipulations](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter8-wrangling-basics.html#basic-dataframe-manipulations)
     * [3. DataFrame Reshaping](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter8-wrangling-basics.html#dataframe-reshaping)
     * [4. Working with Multiple DataFrames](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter8-wrangling-basics.html#working-with-multiple-dataframes)
+
+* From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
+  * [3. Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
+    * [Handling Missing Data](https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html)

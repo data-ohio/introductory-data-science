@@ -63,6 +63,15 @@ In {numref}`sec:intro_pandas` we will learn about the more complex and more powe
     * [3. Array Operations and Broadcasting](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter5-numpy.html#array-operations-and-broadcasting)
     * [4. Indexing and slicing](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter5-numpy.html#indexing-and-slicing)
 
+* From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
+  * [2. Introduction to NumPy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html)
+    * [Understanding Data Types in Python](https://jakevdp.github.io/PythonDataScienceHandbook/02.01-understanding-data-types.html)
+    * [The Basics of NumPy Arrays](https://jakevdp.github.io/PythonDataScienceHandbook/02.02-the-basics-of-numpy-arrays.html)
+    * [Computation on NumPy Arrays: Universal Functions](https://jakevdp.github.io/PythonDataScienceHandbook/02.03-computation-on-arrays-ufuncs.html)
+    * [Aggregations: Min, Max, and Everything In Between](https://jakevdp.github.io/PythonDataScienceHandbook/02.04-computation-on-arrays-aggregates.html)
+	
+    * [Sorting Arrays](https://jakevdp.github.io/PythonDataScienceHandbook/02.08-sorting.html)
+
 * From [python.org](https://www.python.org/):
   * [Python for Beginners](https://www.python.org/about/gettingstarted/)
   * [The Python Tutorial](https://docs.python.org/3/tutorial/)
