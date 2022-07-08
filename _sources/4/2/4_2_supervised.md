@@ -48,4 +48,13 @@ Readings:
     * [17.5. The Accuracy of the Classifier](https://inferentialthinking.com/chapters/17/5/Accuracy_of_the_Classifier.html)
     * [17.6. Multiple Regression](https://inferentialthinking.com/chapters/17/6/Multiple_Regression.html)
 	
-	
+## Further resources
+
+These extra readings from [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text` use Calculus and Linear Algebra concepts that are not expected for readers of this book.
+* [15. Linear Models](http://www.textbook.ds100.org/ch/15/linear_intro.html)
+  * [15.1. Simple Linear Model](http://www.textbook.ds100.org/ch/15/linear_simple.html)
+  * [15.2. Fitting the Simple Linear Model](http://www.textbook.ds100.org/ch/15/linear_simple_fit.html)
+  * [15.3. Multiple Linear Model](http://www.textbook.ds100.org/ch/15/linear_multi.html)
+  * [15.4. Fitting the Multiple Linear Model](http://www.textbook.ds100.org/ch/15/linear_multi_fit.html)
+  * [15.5. Feature Engineering](http://www.textbook.ds100.org/ch/15/linear_feature_eng.html)
+  
