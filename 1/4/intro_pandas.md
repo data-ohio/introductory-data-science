@@ -26,6 +26,9 @@ Our readings are from [Principles and Techniques of Data Science](http://www.tex
   * [3. Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
     * [Introducing Pandas Objects](https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html)
     * [Data Indexing and Selection](https://jakevdp.github.io/PythonDataScienceHandbook/03.02-data-indexing-and-selection.html)
+	* [Combining Datasets: Concat and Append](https://jakevdp.github.io/PythonDataScienceHandbook/03.06-concat-and-append.html)
+	* [Combining Datasets: Merge and Join](https://jakevdp.github.io/PythonDataScienceHandbook/03.07-merge-and-join.html)
+
 
 * From the [pandas project](https://pandas.pydata.org/):
   * [Getting started tutorials](https://pandas.pydata.org/docs/getting_started/intro_tutorials/)

@@ -24,3 +24,11 @@ Students will be able to write and implement generative models for situations ra
     * [10.2. Sampling from a Population](https://inferentialthinking.com/chapters/10/2/Sampling_from_a_Population.html)
 * From [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`:
   * [3.1. The Urn Model](http://www.textbook.ds100.org/ch/03/theory_urn.html)
+
+	
+* From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
+  * [4. Visualization with Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html)
+    * [Histograms, Binnings, and Density](https://jakevdp.github.io/PythonDataScienceHandbook/04.05-histograms-and-binnings.html)
+  * [5. Machine Learning](https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html)
+	* [In Depth: Linear Regression](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html)  
+	
