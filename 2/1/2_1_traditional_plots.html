@@ -483,12 +483,48 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#further-resources">
+   2.1.1. Further Resources
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#plotting-via-matplotlib">
+     2.1.1.1. Plotting via Matplotlib
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#plotting-via-seaborn">
+     2.1.1.2. Plotting via Seaborn
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -500,6 +536,31 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#further-resources">
+   2.1.1. Further Resources
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#plotting-via-matplotlib">
+     2.1.1.1. Plotting via Matplotlib
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#plotting-via-seaborn">
+     2.1.1.2. Plotting via Seaborn
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -526,11 +587,11 @@ title="Print to PDF"
 </ul>
 </li>
 </ul>
-<p><span id="id1">[<a class="reference internal" href="../../intro.html#id13" title="Ohio Department of Higher Education. TMM026-Introductory Data Science. 12 2021. URL: https://www.ohiohighered.org/sites/default/files/uploads/transfer/policy/Introductory%20to%20Data%20Science%20Learning%20Outcomes%20%2812.3.21%29.pdf.">OhioDoHEducation21</a>]</span></p>
+<p><span id="id1">[<a class="reference internal" href="../../intro.html#id15" title="Ohio Department of Higher Education. TMM026-Introductory Data Science. 12 2021. URL: https://www.ohiohighered.org/sites/default/files/uploads/transfer/policy/Introductory%20to%20Data%20Science%20Learning%20Outcomes%20%2812.3.21%29.pdf.">OhioDoHEducation21</a>]</span></p>
 </div>
 <p>Readings:</p>
 <ul class="simple">
-<li><p>From <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id8" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>:</p>
+<li><p>From <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>:</p>
 <ul>
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/07/Visualization.html">7. Visualization</a></p>
 <ul>
@@ -539,7 +600,61 @@ title="Print to PDF"
 </li>
 </ul>
 </li>
+<li><p>From the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span></p>
+<ul>
+<li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html">4. Visualization with Matplotlib</a></p>
+<ul>
+<li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/04.02-simple-scatter-plots.html">Simple Line Plots</a></p></li>
+<li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/04.02-simple-scatter-plots.html">Simple Scatter Plots</a></p></li>
+<li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/04.06-customizing-legends.html">Customizing Plot Legends</a></p></li>
+<li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/04.07-customizing-colorbars.html">Customizing Colorbars</a></p></li>
+<li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/04.08-multiple-subplots.html">Multiple Subplots</a></p></li>
 </ul>
+</li>
+</ul>
+</li>
+</ul>
+<section id="further-resources">
+<h2><span class="section-number">2.1.1. </span>Further Resources<a class="headerlink" href="#further-resources" title="Permalink to this headline">#</a></h2>
+<section id="plotting-via-matplotlib">
+<h3><span class="section-number">2.1.1.1. </span>Plotting via Matplotlib<a class="headerlink" href="#plotting-via-matplotlib" title="Permalink to this headline">#</a></h3>
+<p>Matplotlib is a (the?) standard plotting library in python.
+Typically you load it in a python session with</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>import matplotlib.pyplot as plt
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>From <a class="reference external" href="https://matplotlib.org/">matplotlib.org</a>:</p>
+<ul>
+<li><p><a class="reference external" href="https://matplotlib.org/stable/tutorials/index.html">Tutorials</a></p>
+<ul>
+<li><p><a class="reference external" href="https://matplotlib.org/stable/tutorials/introductory/usage.html">Quick Start</a></p></li>
+<li><p><a class="reference external" href="https://matplotlib.org/3.5.0/tutorials/introductory/pyplot.html">Pyplot tutorial</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://matplotlib.org/stable/index.html">Documentation</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="plotting-via-seaborn">
+<h3><span class="section-number">2.1.1.2. </span>Plotting via Seaborn<a class="headerlink" href="#plotting-via-seaborn" title="Permalink to this headline">#</a></h3>
+<p>Seaborn is a plotting library built on top of Matplotlib to automatically give nice plots for statistical data in pandas dataframes.
+Typically you load it in a python session with</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>import seaborn as sns
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>From <a class="reference external" href="https://seaborn.pydata.org/index.html">seaborn.pydata.org</a></p>
+<ul>
+<li><p><a class="reference external" href="https://seaborn.pydata.org/introduction.html">Introduction</a></p></li>
+<li><p><a class="reference external" href="https://seaborn.pydata.org/tutorial.html">Tutorial</a></p></li>
+<li><p><a class="reference external" href="https://seaborn.pydata.org/api.html">Documentation</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">

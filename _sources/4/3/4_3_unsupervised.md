@@ -14,3 +14,7 @@ Students will be able to use algorithms to draw inferences from datasets consist
 
 {cite}`TMM026`
 ```
+
+* From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
+  * [5. Machine Learning](https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html)
+	* [In Depth: k-Means Clustering](https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html) 

@@ -20,3 +20,11 @@ Our readings, from [Principles and Techniques of Data Science](http://www.textbo
 * [11. Data Visualization](http://www.textbook.ds100.org/ch/11/viz_intro.html)
   * [11.4. Incorporating the Data Design](http://www.textbook.ds100.org/ch/11/viz_data_design.html)
     * [11.4.1. Data Collected over Time](http://www.textbook.ds100.org/ch/11/viz_data_design.html#data-collected-over-time)
+
+
+* From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
+  * [3. Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
+    * [Working with Time Series](https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html)
+
+
+
