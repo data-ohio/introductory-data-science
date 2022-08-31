@@ -22,7 +22,7 @@ Our first reading, from [Principles and Techniques of Data Science](http://www.t
  ```{admonition} Reading Questions
 :class: important
 * What does *CSV* stand for?
-* Why does't everyone use the same file format?
+* Why doesn't everyone use the same file format?
 ``` 
   
 Rather than reading more text on different data formats, spend a few minutes (or a few hours) exploring what is available on the internet. 
