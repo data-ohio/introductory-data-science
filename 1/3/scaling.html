@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>1.3.3. Scaling and Normalizing data &#8212; Introductory Data Science</title>
+    <title>1.3.3. Scaling and Standardizing data &#8212; Introductory Data Science</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -151,7 +151,7 @@ const thebe_selector_output = ".output, .cell_output"
      </li>
      <li class="toctree-l3 current active">
       <a class="current reference internal" href="#">
-       1.3.3. Scaling and Normalizing data
+       1.3.3. Scaling and Standardizing data
       </a>
      </li>
     </ul>
@@ -495,7 +495,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Scaling and Normalizing data</h1>
+                <h1>Scaling and Standardizing data</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -507,17 +507,26 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="scaling-and-normalizing-data">
-<h1><span class="section-number">1.3.3. </span>Scaling and Normalizing data<a class="headerlink" href="#scaling-and-normalizing-data" title="Permalink to this headline">#</a></h1>
-<p>Readings:</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="scaling-and-standardizing-data">
+<h1><span class="section-number">1.3.3. </span>Scaling and Standardizing data<a class="headerlink" href="#scaling-and-standardizing-data" title="Permalink to this headline">#</a></h1>
+<p>When data is going to be used within a statistical model (like we will see in <a class="reference internal" href="../../3/3_models.html#sec-3-models"><span class="std std-numref">Section 3</span></a>) or for machine learning (like we will see in <a class="reference internal" href="../../4/4_learning.html#sec-4-learning"><span class="std std-numref">Section 4</span></a>) one often first applies a transformation.
+The most common transformations are:</p>
 <ul class="simple">
-<li><p>From <a class="reference external" href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></p>
-<ul>
+<li><p>Min-Max scaling: One subtracts the minimum and then divides by the range to obtain data with minimum 0 and maximum 1.</p></li>
+<li><p>Standardizing (also called converting to a standard score or a Z-score): One subtracts the mean and then divides by the standard deviation to obtain data with mean 0 and standard deviation 1.</p></li>
+</ul>
+<p>Our readings, from <a class="reference external" href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>, describe these scalings and others.</p>
+<ul class="simple">
 <li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Feature_scaling">Feature scaling</a></p></li>
 <li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Standard_score">Standard score</a></p></li>
 </ul>
-</li>
+<div class="important admonition">
+<p class="admonition-title">Questions</p>
+<ul class="simple">
+<li><p>How would you apply Min-Max scaling to a column in a <code class="docutils literal notranslate"><span class="pre">Table</span></code> and add the result as a new column?</p></li>
+<li><p>How would you Standardize a column in a <code class="docutils literal notranslate"><span class="pre">Table</span></code> and add the result as a new column?</p></li>
 </ul>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
