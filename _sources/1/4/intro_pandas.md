@@ -5,7 +5,7 @@
 You can load it into a python session with
 
     import pandas as pd
-It is not as user-friendly as the `datascience` library we saw in {numref}`sec:intro_python`, but it can do more things, some of which we need to be able to do in {numref}`sec:wrangling`.
+It is not as user-friendly as the `datascience` library we saw in {numref}`sec:intro_python`, but it can do more things, some of which we need to be able to do in {numref}`sec:wrangling` and later.
 
 Our readings are from [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text` and mostly teach us how to use `pandas` to do the things we already learned to do with `datascience` in {numref}`sec:organize`.
 - [6. Working With Dataframes Using pandas](http://www.textbook.ds100.org/ch/06/pandas_intro.html)
@@ -14,6 +14,24 @@ Our readings are from [Principles and Techniques of Data Science](http://www.tex
   * [6.3. Joining](http://www.textbook.ds100.org/ch/06/pandas_joining.html)
   * [6.4. Transforming](http://www.textbook.ds100.org/ch/06/pandas_transforming.html)
 
+
+```{admonition} Reading Questions
+:class: important
+* If `mydata` is a `datascience` `Table`, then we have learned the following methods:
+  * `mydata.column("Name")`
+  * `mydata.relabeled("Name","name")`
+  * `mydata.with_column("Age",agearray)`
+  * `mydata.select("Name","Favorite Color")`
+  * `mydata.drop("Hometown")`
+  * `mydata.sort("Age")`
+  * `mydata.where("Age",are_above(30))`
+  * `mydata.apply(abs,"Age")`
+  * `mydata.group("Hometown")`
+  * `mydata.join("Hometown",stateindex,"City")`
+  
+  Now suppose `mydata` is a `pandas` `DataFrame`. 
+  How would you accomplish the same things?
+```
 
 
 ## Further resources

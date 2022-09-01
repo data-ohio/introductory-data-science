@@ -14,6 +14,13 @@ Our readings, from [Principles and Techniques of Data Science](http://www.textbo
   * [9.5. Modifying Structure](http://www.textbook.ds100.org/ch/09/wrangling_structure.html)
   * [9.6. Example: Wrangling Restaurant Safety Violations](http://www.textbook.ds100.org/ch/09/wrangling_restaurants.html)
 
+```{admonition} Reading Questions
+:class: important
+* If one bit of data is missing from a row (say, a person's age), what can you do about it?
+* If your data file says that someone's age is 237, what should you do?
+* How do you convert `20160513` to the date `2016-05-13`?
+```
+
 
 ## Further resources
 * From [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html) {cite}`BEUZEN:2021`:
