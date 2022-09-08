@@ -151,7 +151,7 @@ const thebe_selector_output = ".output, .cell_output"
      </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../../1/3/scaling.html">
-       1.3.3. Scaling and Normalizing data
+       1.3.3. Scaling and Standardizing data
       </a>
      </li>
     </ul>
@@ -589,19 +589,54 @@ title="Print to PDF"
 </ul>
 <p><span id="id1">[<a class="reference internal" href="../../intro.html#id15" title="Ohio Department of Higher Education. TMM026-Introductory Data Science. 12 2021. URL: https://www.ohiohighered.org/sites/default/files/uploads/transfer/policy/Introductory%20to%20Data%20Science%20Learning%20Outcomes%20%2812.3.21%29.pdf.">OhioDoHEducation21</a>]</span></p>
 </div>
-<p>Readings:</p>
+<p>Our first reading, from <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>, shows how to do traditional scatter plot and line graphs using the <code class="docutils literal notranslate"><span class="pre">Table</span></code> class in the <code class="docutils literal notranslate"><span class="pre">datascience</span></code> library.</p>
 <ul class="simple">
-<li><p>From <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>:</p>
-<ul>
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/07/Visualization.html">7. Visualization</a></p>
 <ul>
 <li><p>Initial material on Scatter Plots and Line Graphs</p></li>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/07/3/Overlaid_Graphs.html">7.3. Overlaid Graphs</a></p></li>
 </ul>
 </li>
 </ul>
-</li>
-<li><p>From the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span></p>
+<div class="important admonition">
+<p class="admonition-title">Reading Questions</p>
+<ul class="simple">
+<li><p>Would it make sense to do <code class="docutils literal notranslate"><span class="pre">actors.plot('Number</span> <span class="pre">of</span> <span class="pre">Movies',</span> <span class="pre">'Total</span> <span class="pre">Gross')</span></code>?</p></li>
+<li><p>Can you overlay a scatter plot on a line graph?</p></li>
+</ul>
+</div>
+<p>Our second set of readings, from <a class="reference external" href="http://www.textbook.ds100.org/">Principles and Techniques of Data Science</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Principles and Techniques of Data Science. Self published, 2022. URL: http://www.textbook.ds100.org/.">LGN22</a>]</span>, walks through examples that use plots to try to understand data.
+It runs through examples of several different types of plots and discusses which are appropriate for which purposes.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/10/eda_intro.html">10. Exploratory Data Analysis</a></p>
 <ul>
+<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/10/eda_feature_types.html">10.1. Feature Types</a></p></li>
+<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/10/eda_distributions.html">10.2. What to Look For in a Distribution</a></p></li>
+<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/10/eda_relationships.html">10.3. What to Look For in a Relationship</a></p></li>
+<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/10/eda_guidelines.html">10.4. Guidelines for Exploration</a></p></li>
+<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/10/eda_example.html">10.5. Example: Sale Prices for Houses</a></p></li>
+</ul>
+</li>
+</ul>
+<div class="important admonition">
+<p class="admonition-title">Reading Questions</p>
+<ul class="simple">
+<li><p>What is the coolest type of plot in these readings?</p></li>
+<li><p>When should you apply a logarithm transform before plotting?</p></li>
+</ul>
+</div>
+<section id="further-resources">
+<h2><span class="section-number">2.1.1. </span>Further Resources<a class="headerlink" href="#further-resources" title="Permalink to this headline">#</a></h2>
+<section id="plotting-via-matplotlib">
+<h3><span class="section-number">2.1.1.1. </span>Plotting via Matplotlib<a class="headerlink" href="#plotting-via-matplotlib" title="Permalink to this headline">#</a></h3>
+<p>These readings, from the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id4">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span>, explain how to plot using the <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> library.
+Matplotlib is a (the?) standard plotting library in python.
+Typically you load it in a python session with</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>import matplotlib.pyplot as plt
+</pre></div>
+</div>
+<p>The plotting in <code class="docutils literal notranslate"><span class="pre">pandas</span></code> is built on top of <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code>.</p>
+<ul class="simple">
 <li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html">4. Visualization with Matplotlib</a></p>
 <ul>
 <li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/04.02-simple-scatter-plots.html">Simple Line Plots</a></p></li>
@@ -612,16 +647,11 @@ title="Print to PDF"
 </ul>
 </li>
 </ul>
-</li>
+<div class="important admonition">
+<p class="admonition-title">Reading Question</p>
+<ul class="simple">
+<li><p>How do you set a label for the y-axis on a plot?</p></li>
 </ul>
-<section id="further-resources">
-<h2><span class="section-number">2.1.1. </span>Further Resources<a class="headerlink" href="#further-resources" title="Permalink to this headline">#</a></h2>
-<section id="plotting-via-matplotlib">
-<h3><span class="section-number">2.1.1.1. </span>Plotting via Matplotlib<a class="headerlink" href="#plotting-via-matplotlib" title="Permalink to this headline">#</a></h3>
-<p>Matplotlib is a (the?) standard plotting library in python.
-Typically you load it in a python session with</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>import matplotlib.pyplot as plt
-</pre></div>
 </div>
 <ul class="simple">
 <li><p>From <a class="reference external" href="https://matplotlib.org/">matplotlib.org</a>:</p>
@@ -639,7 +669,7 @@ Typically you load it in a python session with</p>
 </section>
 <section id="plotting-via-seaborn">
 <h3><span class="section-number">2.1.1.2. </span>Plotting via Seaborn<a class="headerlink" href="#plotting-via-seaborn" title="Permalink to this headline">#</a></h3>
-<p>Seaborn is a plotting library built on top of Matplotlib to automatically give nice plots for statistical data in pandas dataframes.
+<p>Seaborn is a plotting library built on top of <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> to automatically give nice plots for statistical data in pandas dataframes.
 Typically you load it in a python session with</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>import seaborn as sns
 </pre></div>
