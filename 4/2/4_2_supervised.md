@@ -52,6 +52,8 @@ Readings:
   * [5. Machine Learning](https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html)
 	* [In Depth: Linear Regression](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html)  
 	
+(Should show the effects of outliers visually as in {numref}`sec:visualize_single_vs_two`.)	
+	
 ## Further resources
 
 
