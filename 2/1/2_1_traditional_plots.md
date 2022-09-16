@@ -1,3 +1,4 @@
+(sec:traditional_plots)=
 # Traditional Plots
 
 ```{admonition} Learning Outcome
@@ -27,7 +28,7 @@ Our first reading, from [Computational and Inferential Thinking](https://inferen
 * Can you overlay a scatter plot on a line graph?
 ```
 
-Our second set of readings, from [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, walks through examples that use plots to try to understand data.
+Our second set of readings, from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, walks through examples that use plots to try to understand data.
 It runs through examples of several different types of plots and discusses which are appropriate for which purposes.
 * [10. Exploratory Data Analysis](http://www.textbook.ds100.org/ch/10/eda_intro.html)
   * [10.1. Feature Types](http://www.textbook.ds100.org/ch/10/eda_feature_types.html)

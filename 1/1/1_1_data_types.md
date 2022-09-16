@@ -13,7 +13,7 @@ Students will be able to distinguish between types and sources of data.
  
 {cite}`TMM026`
 ```
-Our first reading, from  [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`, describes the feature types one finds in data. (It then does some examples using the  `pandas` library, which we learn about in {numref}`sec:intro_pandas`.)
+Our first reading, from  [Learning Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`, describes the feature types one finds in data. (It then does some examples using the  `pandas` library, which we learn about in {numref}`sec:intro_pandas`.)
 * [10.1. Feature Types](http://www.textbook.ds100.org/ch/10/eda_feature_types.html)
 
 ```{admonition} Reading Question
@@ -21,7 +21,7 @@ Our first reading, from  [Principles and Techniques of Data Science](http://www.
 Your data contains a feature with possible entries "small", "medium", and "large". What type is this feature?
 ```
 
-Our second set of readings, also from [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`, walks through some of the issues to consider when evaluating data sources and the data sets they provide.
+Our second set of readings, also from [Learning Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`, walks through some of the issues to consider when evaluating data sources and the data sets they provide.
 * [2. Questions and Data Scope](http://www.textbook.ds100.org/ch/02/data_scope_intro.html)
   * [2.2. Target Population, Access Frame, Sample](http://www.textbook.ds100.org/ch/02/data_scope_construct.html)
   * [2.3. Instruments and Protocols](http://www.textbook.ds100.org/ch/02/data_scope_protocols.html)

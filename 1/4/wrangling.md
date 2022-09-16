@@ -5,7 +5,7 @@ The data we collect (as in {numref}`sec:collect_data`) may not be in a usable fo
 It may have errors, missing values, etc. that need to be _cleaned_ before it can be _organized_ (as in {numref}`sec:organize`).
 The process of cleaning and organizing data is sometimes called _data wrangling_.
 
-Our readings, from [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, go through this data wrangling process of cleaning and organizing data.
+Our readings, from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, go through this data wrangling process of cleaning and organizing data.
 * [9. Wrangling Dataframes](http://www.textbook.ds100.org/ch/09/wrangling_intro.html)
   * [9.1. Example: Wrangling CO2 Measurements from Mauna Loa Observatory](http://www.textbook.ds100.org/ch/09/wrangling_co2.html)
   * [9.2. Quality Checks](http://www.textbook.ds100.org/ch/09/wrangling_checks.html)
