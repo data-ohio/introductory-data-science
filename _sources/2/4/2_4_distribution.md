@@ -34,7 +34,7 @@ Students will be able to identify common distribution models and discern what ty
 
 {cite}`TMM026`
 ```
-Our readings, from [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, ...
+Our readings, from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, ...
 * [11. Data Visualization](http://www.textbook.ds100.org/ch/11/viz_intro.html)
   * [11.4. Incorporating the Data Design](http://www.textbook.ds100.org/ch/11/viz_data_design.html)
     * [11.4.4. Geographic Data](http://www.textbook.ds100.org/ch/11/viz_data_design.html#geographic-data)

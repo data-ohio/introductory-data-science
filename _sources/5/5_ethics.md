@@ -6,3 +6,5 @@
 Readings:
 * From {cite}`BA-KA-HO:2021`:
   - [Chapter 8 Data science ethics](https://mdsr-book.github.io/mdsr2e/ch-ethics.html)
+
+[What is Data Ethics?](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2016.0360) and following articles.

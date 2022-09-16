@@ -25,7 +25,8 @@ Students will be able to compare traditional and dynamic graphing techniques and
   
 {cite}`TMM026`
 ```
-Our readings, from [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, ...
+Our readings, from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, describe principles for choosing types of graphs and graphing parameters in order to visually tell the story of a data set. 
+(*Finding* the story visually was discussed in {numref}`sec:traditional_plots`.)
 * [11. Data Visualization](http://www.textbook.ds100.org/ch/11/viz_intro.html)
   * [11.1. Choosing Scale to Reveal Structure](http://www.textbook.ds100.org/ch/11/viz_scale.html)
   * [11.2. Smoothing and Aggregating Data](http://www.textbook.ds100.org/ch/11/viz_smoothing.html)

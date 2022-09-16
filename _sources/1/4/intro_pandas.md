@@ -7,7 +7,7 @@ You can load it into a python session with
     import pandas as pd
 It is not as user-friendly as the `datascience` library we saw in {numref}`sec:intro_python`, but it can do more things, some of which we need to be able to do in {numref}`sec:wrangling` and later.
 
-Our readings are from [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text` and mostly teach us how to use `pandas` to do the things we already learned to do with `datascience` in {numref}`sec:organize`.
+Our readings are from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text` and mostly teach us how to use `pandas` to do the things we already learned to do with `datascience` in {numref}`sec:organize`.
 - [6. Working With Dataframes Using pandas](http://www.textbook.ds100.org/ch/06/pandas_intro.html)
   * [6.1. Subsetting](http://www.textbook.ds100.org/ch/06/pandas_subsetting.html)
   * [6.2. Aggregating](http://www.textbook.ds100.org/ch/06/pandas_aggregating.html)

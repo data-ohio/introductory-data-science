@@ -14,7 +14,7 @@ Students will be able to acquire raw data from a variety of sources.
  
 {cite}`TMM026`
 ```
-Our first reading, from [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, gives some examples of different types of data available and the formats they might be in.
+Our first reading, from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, gives some examples of different types of data available and the formats they might be in.
 * [8. Wrangling Files](http://www.textbook.ds100.org/ch/08/files_intro.html)  
   * [8.1. Data Source Examples](http://www.textbook.ds100.org/ch/08/files_datasets.html)  
   * [8.2. File Formats](http://www.textbook.ds100.org/ch/08/files_formats.html)  

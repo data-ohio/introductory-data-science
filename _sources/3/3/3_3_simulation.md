@@ -22,5 +22,6 @@ Readings:
     * [9.5. Finding Probabilities](https://inferentialthinking.com/chapters/09/5/Finding_Probabilities.html)
   - [13. Estimation](https://inferentialthinking.com/chapters/13/Estimation.html)
     * [13.1. Percentiles](https://inferentialthinking.com/chapters/13/1/Percentiles.html)
-* From [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`:
+
+* From [Learning Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`:
   * [3.1. The Urn Model](http://www.textbook.ds100.org/ch/03/theory_urn.html)
