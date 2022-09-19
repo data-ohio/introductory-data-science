@@ -34,10 +34,32 @@ Students will be able to identify common distribution models and discern what ty
 
 {cite}`TMM026`
 ```
-Our readings, from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, ...
-* [11. Data Visualization](http://www.textbook.ds100.org/ch/11/viz_intro.html)
-  * [11.4. Incorporating the Data Design](http://www.textbook.ds100.org/ch/11/viz_data_design.html)
-    * [11.4.4. Geographic Data](http://www.textbook.ds100.org/ch/11/viz_data_design.html#geographic-data)
+Our first readings, from [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`, are repeated from {numref}`sec:visualize_single_vs_two` and remind us how to plot distributions in 1 variable.
+%* [7. Visualization](https://inferentialthinking.com/chapters/07/Visualization.html) 
+* [7.1. Visualizing Categorical Distributions](https://inferentialthinking.com/chapters/07/1/Visualizing_Categorical_Distributions.html)
+* [7.2. Visualizing Numerical Distributions](https://inferentialthinking.com/chapters/07/2/Visualizing_Numerical_Distributions.html)
+
+Our second readings, from  [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, are also repeated from {numref}`sec:visualize_single_vs_two`.
+These remind us how to plot distributions in 1 and 2 variables.
+* [10.2. What to Look For in a Distribution](http://www.textbook.ds100.org/ch/10/eda_distributions.html)
+* [10.3. What to Look For in a Relationship](http://www.textbook.ds100.org/ch/10/eda_relationships.html)
+
+```{admonition} Reading Questions
+:class: important
+* What does it mean for a distribution to skew right?
+* What does it meant for a distribution to have a long tail?
+```
+
+Our third reading, also from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, discusses distributions on geographic maps. 
+%* [11. Data Visualization](http://www.textbook.ds100.org/ch/11/viz_intro.html)
+%  * [11.4. Incorporating the Data Design](http://www.textbook.ds100.org/ch/11/viz_data_design.html)
+* [11.4.4. Geographic Data](http://www.textbook.ds100.org/ch/11/viz_data_design.html#geographic-data)
+	
+	
+When studying a distribution, one question to ask is how well it fits the distribution of a known statistical model, such as a normal distribution. 
+We will study such statistical models in {numref}`sec:statistical_model`.
+	
+## Further Resources	
 	
 * From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
   * [4. Visualization with Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html)

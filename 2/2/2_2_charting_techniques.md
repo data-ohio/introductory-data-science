@@ -40,7 +40,7 @@ Such charts are applied to a single column of data, and so illustrate the behavi
 ```
 
 Our second set of readings are from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text` and are repeated from {numref}`sec:traditional_plots`. 
-* The first of these also considers visualizing the behavior of one variable:
+* The first of these also considers visualizing the behavior of 1 variable:
   * [10.2. What to Look For in a Distribution](http://www.textbook.ds100.org/ch/10/eda_distributions.html)
 * The second of these considers visualizing the relationship between 2 variables:
   * [10.3. What to Look For in a Relationship](http://www.textbook.ds100.org/ch/10/eda_relationships.html)
