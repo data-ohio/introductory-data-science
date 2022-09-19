@@ -1,3 +1,4 @@
+(sec:statistical_model)=
 # Statistical Model
 
 ```{admonition} Learning Outcome
