@@ -16,15 +16,27 @@ Students will be able to develop an analytic model and trendline for a time seri
 
 {cite}`TMM026`
 ```
-Our readings, from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, ...
-* [11. Data Visualization](http://www.textbook.ds100.org/ch/11/viz_intro.html)
-  * [11.4. Incorporating the Data Design](http://www.textbook.ds100.org/ch/11/viz_data_design.html)
-    * [11.4.1. Data Collected over Time](http://www.textbook.ds100.org/ch/11/viz_data_design.html#data-collected-over-time)
 
+The term [time series](https://en.wikipedia.org/wiki/Time_series) simply means data where time is taken as the independent variable. 
+It gets its own name because using data collected over time to predict the future is such an important application.
 
-* From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
-  * [3. Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
-    * [Working with Time Series](https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html)
+Our first reading, from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, discusses using line plots to visualize time series.
+%* [11. Data Visualization](http://www.textbook.ds100.org/ch/11/viz_intro.html)
+%  * [11.4. Incorporating the Data Design](http://www.textbook.ds100.org/ch/11/viz_data_design.html)
+* [11.4.1. Data Collected over Time](http://www.textbook.ds100.org/ch/11/viz_data_design.html#data-collected-over-time)
 
+```{admonition} Reading Question
+:class: important
+* In the housing market crash, which percentile of houses did the worst ?
+```
+
+Our second reading, from the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`, first discusses tools within the `pandas` library for manipulating times, and then discussed the techniques of resampling, shifting, and windowing to make visualizations of time-series easier to understand. 
+* [3. Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
+  * [Working with Time Series](https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html)
+
+```{admonition} Reading Question
+:class: important
+* When should one apply a rolling window to a time series?
+```
 
 

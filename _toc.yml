@@ -26,6 +26,8 @@ chapters:
     - file: 2/3/2_3_dynamic_plotting
     - file: 2/4/2_4_distribution
     - file: 2/5/2_5_time_series
+      sections:
+        - file: 2/5/forecasting
     - file: 2/6/2_6_misleading
 - file: 3/3_models
   sections:
