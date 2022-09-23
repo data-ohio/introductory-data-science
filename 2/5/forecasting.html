@@ -554,12 +554,12 @@ title="Print to PDF"
 In <em>hard</em> applications, such as predicting the stock market, one can use the full power of Machine Learning (<a class="reference internal" href="../../4/1/4_1_machine.html#sec-machine-learning"><span class="std std-numref">Section 4.1</span></a>) and still be unsuccessful.
 However, in some applications one can fit a trendline to the data and obtain a useful prediction, at least for a short period of time.
 Since we have not yet learned how to make trendlines, we will use tools to do them for us and only deal with them visually.</p>
-<p>As an example, we first load a dataset with number of passengers flying each month from 1949 to 1960.</p>
+<p>As an example, we first load a dataset with number of passengers flying each year from 1949 to 1960.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
-<span class="n">flights</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s2">&quot;flights&quot;</span><span class="p">)</span> 
+<span class="n">flights</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s2">&quot;flights&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;year&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="nb">sum</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
 <span class="n">flights</span>
 </pre></div>
 </div>
@@ -584,7 +584,6 @@ Since we have not yet learned how to make trendlines, we will use tools to do th
     <tr style="text-align: right;">
       <th></th>
       <th>year</th>
-      <th>month</th>
       <th>passengers</th>
     </tr>
   </thead>
@@ -592,72 +591,65 @@ Since we have not yet learned how to make trendlines, we will use tools to do th
     <tr>
       <th>0</th>
       <td>1949</td>
-      <td>Jan</td>
-      <td>112</td>
+      <td>1520</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>1949</td>
-      <td>Feb</td>
-      <td>118</td>
+      <td>1950</td>
+      <td>1676</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>1949</td>
-      <td>Mar</td>
-      <td>132</td>
+      <td>1951</td>
+      <td>2042</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>1949</td>
-      <td>Apr</td>
-      <td>129</td>
+      <td>1952</td>
+      <td>2364</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>1949</td>
-      <td>May</td>
-      <td>121</td>
+      <td>1953</td>
+      <td>2700</td>
     </tr>
     <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
+      <th>5</th>
+      <td>1954</td>
+      <td>2867</td>
     </tr>
     <tr>
-      <th>139</th>
+      <th>6</th>
+      <td>1955</td>
+      <td>3408</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1956</td>
+      <td>3939</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1957</td>
+      <td>4421</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>1958</td>
+      <td>4572</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>1959</td>
+      <td>5140</td>
+    </tr>
+    <tr>
+      <th>11</th>
       <td>1960</td>
-      <td>Aug</td>
-      <td>606</td>
-    </tr>
-    <tr>
-      <th>140</th>
-      <td>1960</td>
-      <td>Sep</td>
-      <td>508</td>
-    </tr>
-    <tr>
-      <th>141</th>
-      <td>1960</td>
-      <td>Oct</td>
-      <td>461</td>
-    </tr>
-    <tr>
-      <th>142</th>
-      <td>1960</td>
-      <td>Nov</td>
-      <td>390</td>
-    </tr>
-    <tr>
-      <th>143</th>
-      <td>1960</td>
-      <td>Dec</td>
-      <td>432</td>
+      <td>5714</td>
     </tr>
   </tbody>
 </table>
-<p>144 rows × 3 columns</p>
 </div></div></div>
 </div>
 <p>Looking at this plot, it seems reasonable that we could predict the average number of monthly passengers in the future by following the trendline.</p>
@@ -672,13 +664,15 @@ Since we have not yet learned how to make trendlines, we will use tools to do th
 <img alt="../../_images/forecasting_3_0.png" src="../../_images/forecasting_3_0.png" />
 </div>
 </div>
-<p>To test this idea, we can try using the data from 1949-1958 to predict the average monthly passengers in 1960.
-This looks pretty good.</p>
+<p>To test this idea, we can try using the data from 1949-1959 to predict the number of passengers in 1960.
+In the plot, the blue points were used to create the blue trendline, which is close to the true 1960 data in red.
+While a little low, this looks pretty good.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">lmplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;year&quot;</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s2">&quot;passengers&quot;</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">flights</span><span class="p">[</span><span class="n">flights</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span><span class="o">&lt;</span><span class="mi">1959</span><span class="p">],</span><span class="n">truncate</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">facet_kws</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;xlim&#39;</span><span class="p">:(</span><span class="mi">1948</span><span class="p">,</span><span class="mi">1961</span><span class="p">)})</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;year&quot;</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s2">&quot;passengers&quot;</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">flights</span><span class="p">[</span><span class="n">flights</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span><span class="o">==</span><span class="mi">1960</span><span class="p">],</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Predicting 1960 using 1949-1958&quot;</span><span class="p">);</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">lmplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;year&quot;</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s2">&quot;passengers&quot;</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">flights</span><span class="p">[</span><span class="n">flights</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span><span class="o">&lt;=</span><span class="mi">1959</span><span class="p">],</span><span class="n">truncate</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">facet_kws</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;xlim&#39;</span><span class="p">:(</span><span class="mi">1948</span><span class="p">,</span><span class="mi">1961</span><span class="p">)})</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;year&quot;</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s2">&quot;passengers&quot;</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">flights</span><span class="p">[</span><span class="n">flights</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span><span class="o">==</span><span class="mi">1960</span><span class="p">],</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;True 1960&#39;</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s2">&quot;lower right&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Predicting 1960 using 1949-1959&quot;</span><span class="p">);</span>
 </pre></div>
 </div>
 </div>
@@ -691,7 +685,8 @@ Here is what happens if we only use 1949-1952 to predict 1960.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">lmplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;year&quot;</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s2">&quot;passengers&quot;</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">flights</span><span class="p">[</span><span class="n">flights</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span><span class="o">&lt;</span><span class="mi">1953</span><span class="p">],</span><span class="n">truncate</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">facet_kws</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;xlim&#39;</span><span class="p">:(</span><span class="mi">1948</span><span class="p">,</span><span class="mi">1961</span><span class="p">)})</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;year&quot;</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s2">&quot;passengers&quot;</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">flights</span><span class="p">[</span><span class="n">flights</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span><span class="o">==</span><span class="mi">1960</span><span class="p">],</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;year&quot;</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s2">&quot;passengers&quot;</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">flights</span><span class="p">[</span><span class="n">flights</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span><span class="o">==</span><span class="mi">1960</span><span class="p">],</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;True 1960&#39;</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s2">&quot;lower right&quot;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Predicting 1960 using 1949-1952&quot;</span><span class="p">);</span>
 </pre></div>
 </div>
