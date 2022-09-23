@@ -1,3 +1,4 @@
+(sec:machine_learning)=
 # Machine Learning
 
 ```{admonition} Learning Outcome

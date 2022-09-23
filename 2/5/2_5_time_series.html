@@ -52,7 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="2.6. Misleading Graphs" href="../6/2_6_misleading.html" />
+    <link rel="next" title="2.5.1. Forecasting using Time Series" href="forecasting.html" />
     <link rel="prev" title="2.4. Distribution Maps" href="../4/2_4_distribution.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -210,10 +210,22 @@ const thebe_selector_output = ".output, .cell_output"
      2.4. Distribution Maps
     </a>
    </li>
-   <li class="toctree-l2 current active">
+   <li class="toctree-l2 current active has-children">
     <a class="current reference internal" href="#">
      2.5. Time Series Plots
     </a>
+    <input checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="forecasting.html">
+       2.5.1. Forecasting using Time Series
+      </a>
+     </li>
+    </ul>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../6/2_6_misleading.html">
@@ -226,8 +238,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../3/3_models.html">
    3. Statistical models, estimation, and prediction
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
+  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -268,8 +280,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../4/4_learning.html">
    4. Machine learning and statistical learning
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
-  <label for="toctree-checkbox-6">
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -300,8 +312,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../5/5_ethics.html">
    5. Data ethics
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
-  <label for="toctree-checkbox-7">
+  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -529,27 +541,34 @@ title="Print to PDF"
 </ul>
 <p><span id="id1">[<a class="reference internal" href="../../intro.html#id15" title="Ohio Department of Higher Education. TMM026-Introductory Data Science. 12 2021. URL: https://www.ohiohighered.org/sites/default/files/uploads/transfer/policy/Introductory%20to%20Data%20Science%20Learning%20Outcomes%20%2812.3.21%29.pdf.">OhioDoHEducation21</a>]</span></p>
 </div>
-<p>Our readings, from <a class="reference external" href="http://www.textbook.ds100.org/">Learning Data Science</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span>, …</p>
+<p>The term <a class="reference external" href="https://en.wikipedia.org/wiki/Time_series">time series</a> simply means data where time is taken as the independent variable.
+It gets its own name because using data collected over time to predict the future is such an important application.</p>
+<p>Our first reading, from <a class="reference external" href="http://www.textbook.ds100.org/">Learning Data Science</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span>, discusses using line plots to visualize time series.</p>
 <ul class="simple">
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/11/viz_intro.html">11. Data Visualization</a></p>
-<ul>
-<li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/11/viz_data_design.html">11.4. Incorporating the Data Design</a></p>
-<ul>
 <li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/11/viz_data_design.html#data-collected-over-time">11.4.1. Data Collected over Time</a></p></li>
 </ul>
-</li>
+<div class="important admonition">
+<p class="admonition-title">Reading Question</p>
+<ul class="simple">
+<li><p>In the housing market crash, which percentile of houses did the worst ?</p></li>
 </ul>
-</li>
-<li><p>From the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span></p>
-<ul>
+</div>
+<p>Our second reading, from the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span>, first discusses tools within the <code class="docutils literal notranslate"><span class="pre">pandas</span></code> library for manipulating times, and then discussed the techniques of resampling, shifting, and windowing to make visualizations of time-series easier to understand.</p>
+<ul class="simple">
 <li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html">3. Data Manipulation with Pandas</a></p>
 <ul>
 <li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html">Working with Time Series</a></p></li>
 </ul>
 </li>
 </ul>
-</li>
+<div class="important admonition">
+<p class="admonition-title">Reading Question</p>
+<ul class="simple">
+<li><p>When should one apply a rolling window to a time series?</p></li>
 </ul>
+</div>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -586,10 +605,10 @@ title="Print to PDF"
             <p class="prev-next-title"><span class="section-number">2.4. </span>Distribution Maps</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../6/2_6_misleading.html" title="next page">
+    <a class='right-next' id="next-link" href="forecasting.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">2.6. </span>Misleading Graphs</p>
+        <p class="prev-next-title"><span class="section-number">2.5.1. </span>Forecasting using Time Series</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
