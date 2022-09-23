@@ -1,3 +1,4 @@
+(sec:dynamic_visualization)=
 # Dynamic Visualization
 
 ```{admonition} Learning Outcome
