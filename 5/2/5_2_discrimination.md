@@ -16,3 +16,6 @@ Readings:
 * From {cite}`BA-KA-HO:2021`:
   - [Chapter 8 Data science ethics](https://mdsr-book.github.io/mdsr2e/ch-ethics.html)
     * [8.6 Algorithmic bias](https://mdsr-book.github.io/mdsr2e/ch-ethics.html#algorithmic-bias)
+
+[The 6 most common types of bias when working with data](https://www.metabase.com/blog/6-most-common-type-of-data-bias-in-data-analysis), a 2021 blog post.
+

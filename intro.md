@@ -54,6 +54,7 @@ Readings:
 
 * Shadrack Afful Mensah contributed by evaluating material from {cite}`BEUZEN:2021` and {cite}`DATA100text` for inclusion.
 * Moayad Odeh contributed by evaluating material from {cite}`VANDER:2016` for inclusion.
+* Gordon Nsiah contributed by finding materials to include in {numref}`sec:data_ethics`.
 
 ## Bibliography
 ```{bibliography}

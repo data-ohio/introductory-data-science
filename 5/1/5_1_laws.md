@@ -12,3 +12,16 @@ Students will be able to consider the local legislation, and identify the releva
 
 {cite}`TMM026`
 ```
+
+[How GDPR Affects Data Science](https://www.kdnuggets.com/2017/07/gdpr-affects-data-science.html), a 2017 blog post.
+
+[General Data Protection Regulation (GDPR)](https://www.techtarget.com/whatis/definition/General-Data-Protection-Regulation-GDPR), an extended definition post.
+
+The California Privacy Rights Act of 2020:
+  * [Executive Summary](https://www.caprivacy.org/cpra-exec-summary/)
+  * [Summary by Section](https://www.caprivacy.org/cpra-summary-by-section/)
+  
+[Section 230 of the Communications Decency Act](https://www.eff.org/issues/cda230) summary and interpretation.
+
+
+
