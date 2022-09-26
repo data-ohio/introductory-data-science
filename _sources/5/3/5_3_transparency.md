@@ -20,3 +20,9 @@ Readings:
 	* [8.6 Algorithmic bias](https://mdsr-book.github.io/mdsr2e/ch-ethics.html#algorithmic-bias)
 	* [8.8 Reproducibility](https://mdsr-book.github.io/mdsr2e/ch-ethics.html#sec:reproducibility)
 	
+
+Federal Data Strategy [Data Ethics Framework](https://resources.data.gov/assets/documents/fds-data-ethics-framework.pdf)
+
+[5 Principles of Data Ethics for Business](https://online.hbs.edu/blog/post/data-ethics), a 2021 blog post.
+
+[What Is Data Ethics?](https://www.dataversity.net/what-are-data-ethics/), a 2021 blog post.
