@@ -12,16 +12,16 @@ Students will be able to consider the local legislation, and identify the releva
 
 {cite}`TMM026`
 ```
+We have two readings on the European General Data Protection Regulation (GDPR):
+* The overview [What is GDPR, the EU’s new data protection law?](https://gdpr.eu/what-is-gdpr/) from the [Complete guide to GDPR compliance](https://gdpr.eu/).
+* Wikipedia's entry on [General Data Protection Regulation](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation).
 
-[How GDPR Affects Data Science](https://www.kdnuggets.com/2017/07/gdpr-affects-data-science.html), a 2017 blog post.
-
-[General Data Protection Regulation (GDPR)](https://www.techtarget.com/whatis/definition/General-Data-Protection-Regulation-GDPR), an extended definition post.
-
-The California Privacy Rights Act of 2020:
-  * [Executive Summary](https://www.caprivacy.org/cpra-exec-summary/)
-  * [Summary by Section](https://www.caprivacy.org/cpra-summary-by-section/)
+On the California Privacy Rights Act of 2020, our reading is an [Executive Summary](https://www.caprivacy.org/cpra-exec-summary/).
   
 [Section 230 of the Communications Decency Act](https://www.eff.org/issues/cda230) summary and interpretation.
 
+## Further Resources
 
-
+* [General Data Protection Regulation (GDPR)](https://www.techtarget.com/whatis/definition/General-Data-Protection-Regulation-GDPR), an extended definition post.
+* [How GDPR Affects Data Science](https://www.kdnuggets.com/2017/07/gdpr-affects-data-science.html), a 2017 blog post.
+* California Privacy Rights Act of 2020 [Summary by Section](https://www.caprivacy.org/cpra-summary-by-section/)
