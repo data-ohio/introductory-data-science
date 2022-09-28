@@ -26,3 +26,4 @@ Readings:
 
 [6 Types of Sampling Bias: How to Avoid Sampling Bias](https://www.masterclass.com/articles/sampling-bias), a 2022 blog post.
 
+Wikipedia's entry on [Sampling Bias](https://en.wikipedia.org/wiki/Sampling_bias)
