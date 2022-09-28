@@ -19,3 +19,4 @@ Readings:
 
 [The 6 most common types of bias when working with data](https://www.metabase.com/blog/6-most-common-type-of-data-bias-in-data-analysis), a 2021 blog post.
 
+Wikipedia's entry on [Redlining](https://en.wikipedia.org/wiki/Redlining)
