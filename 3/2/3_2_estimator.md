@@ -17,3 +17,11 @@ Students will be able to estimate the parameters of a model, use simulation meth
 * From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
   - [10. Sampling and Empirical Distributions](https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)
     * [10.3. Empirical Distribution of a Statistic](https://inferentialthinking.com/chapters/10/3/Empirical_Distribution_of_a_Statistic.html)
+  - [14. Why the Mean Matters](https://inferentialthinking.com/chapters/14/Why_the_Mean_Matters.html)
+    * [14.1. Properties of the Mean](https://inferentialthinking.com/chapters/14/1/Properties_of_the_Mean.html)
+    * [14.2. Variability](https://inferentialthinking.com/chapters/14/2/Variability.html)
+    * [14.3. The SD and the Normal Curve](https://inferentialthinking.com/chapters/14/3/SD_and_the_Normal_Curve.html)
+    * [14.4. The Central Limit Theorem](https://inferentialthinking.com/chapters/14/4/Central_Limit_Theorem.html)
+    * [14.5. The Variability of the Sample Mean](https://inferentialthinking.com/chapters/14/5/Variability_of_the_Sample_Mean.html)
+    * [14.6. Choosing a Sample Size](https://inferentialthinking.com/chapters/14/6/Choosing_a_Sample_Size.html)
+

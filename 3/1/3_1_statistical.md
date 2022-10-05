@@ -3,7 +3,7 @@
 
 ```{admonition} Learning Outcome
 :class: tip
-Students will be able to write and implement generative models for situations ranging from simple one-sample problems to more complex settings
+Students will be able to write and implement generative models for situations ranging from simple one-sample problems to more complex settings.
 ```
 
 ```{admonition} Sample Tasks
@@ -15,22 +15,38 @@ Students will be able to write and implement generative models for situations ra
 
 {cite}`TMM026`
 ```
-* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
-  - [9. Randomness](https://inferentialthinking.com/chapters/09/Randomness.html)
-    * [9.1. Conditional Statements](https://inferentialthinking.com/chapters/09/1/Conditional_Statements.html)
-    * [9.2. Iteration](https://inferentialthinking.com/chapters/09/2/Iteration.html)
-    * [9.3. Simulation](https://inferentialthinking.com/chapters/09/3/Simulation.html)
-  - [10. Sampling and Empirical Distributions](https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)
-    * [10.1. Empirical Distributions](https://inferentialthinking.com/chapters/10/1/Empirical_Distributions.html)
-    * [10.2. Sampling from a Population](https://inferentialthinking.com/chapters/10/2/Sampling_from_a_Population.html)
 
+Our first readings, from [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`, discuss ideas of randomness and generating data from a distribution using a simulation.
+* [9. Randomness](https://inferentialthinking.com/chapters/09/Randomness.html)
+  * [9.1. Conditional Statements](https://inferentialthinking.com/chapters/09/1/Conditional_Statements.html)
+  * [9.2. Iteration](https://inferentialthinking.com/chapters/09/2/Iteration.html)
+  * [9.3. Simulation](https://inferentialthinking.com/chapters/09/3/Simulation.html)
+	
+
+```{admonition} Reading Question
+:class: important
+* One of the examples generates the number of Heads in 100 coin tosses. Which of the follow distributions does this number follow?
+  * [Binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution)
+  * [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution)
+  * [Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)
+  * [Gamma distribution](https://en.wikipedia.org/wiki/Gamma_distribution)
+```
+
+Our second readings, also from [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`, discuss generating a distribution from data using sampling.
+* [10. Sampling and Empirical Distributions](https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)
+  * [10.1. Empirical Distributions](https://inferentialthinking.com/chapters/10/1/Empirical_Distributions.html)
+  * [10.2. Sampling from a Population](https://inferentialthinking.com/chapters/10/2/Sampling_from_a_Population.html)
+
+```{admonition} Reading Questions
+:class: important
+* What does it mean for a distribution to be *empirical*?
+* What is the *Law of Averages*?
+```
+
+
+```{admonition} Further Resources
 * From [Learning Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`:
   * [3.1. The Urn Model](http://www.textbook.ds100.org/ch/03/theory_urn.html)
-
+```
 	
-* From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
-  * [4. Visualization with Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html)
-    * [Histograms, Binnings, and Density](https://jakevdp.github.io/PythonDataScienceHandbook/04.05-histograms-and-binnings.html)
-  * [5. Machine Learning](https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html)
-	* [In Depth: Linear Regression](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html)  
 	

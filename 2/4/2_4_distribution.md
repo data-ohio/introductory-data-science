@@ -59,12 +59,12 @@ Our third reading, also from [Learning Data Science](http://www.textbook.ds100.o
 When studying a distribution, one question to ask is how well it fits the distribution of a known statistical model, such as a normal distribution. 
 We will study such statistical models in {numref}`sec:statistical_model`.
 	
-## Further Resources	
 	
+```{admonition} Further Resources	
 * From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
   * [4. Visualization with Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html)
     * [Density and Contour Plots](https://jakevdp.github.io/PythonDataScienceHandbook/04.04-density-and-contour-plots.html)
     * [Histograms, Binnings, and Density](https://jakevdp.github.io/PythonDataScienceHandbook/04.05-histograms-and-binnings.html)
     * [Geographic Data with Basemap](https://jakevdp.github.io/PythonDataScienceHandbook/04.13-geographic-data-with-basemap.html)
-
+```
 	
