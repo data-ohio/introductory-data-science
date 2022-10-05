@@ -523,7 +523,7 @@ title="Print to PDF"
 <span id="sec-statistical-model"></span><h1><span class="section-number">3.1. </span>Statistical Model<a class="headerlink" href="#statistical-model" title="Permalink to this headline">#</a></h1>
 <div class="tip admonition">
 <p class="admonition-title">Learning Outcome</p>
-<p>Students will be able to write and implement generative models for situations ranging from simple one-sample problems to more complex settings</p>
+<p>Students will be able to write and implement generative models for situations ranging from simple one-sample problems to more complex settings.</p>
 </div>
 <div class="admonition-sample-tasks admonition">
 <p class="admonition-title">Sample Tasks</p>
@@ -536,9 +536,8 @@ title="Print to PDF"
 </ul>
 <p><span id="id1">[<a class="reference internal" href="../../intro.html#id15" title="Ohio Department of Higher Education. TMM026-Introductory Data Science. 12 2021. URL: https://www.ohiohighered.org/sites/default/files/uploads/transfer/policy/Introductory%20to%20Data%20Science%20Learning%20Outcomes%20%2812.3.21%29.pdf.">OhioDoHEducation21</a>]</span></p>
 </div>
+<p>Our first readings, from <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>, discuss ideas of randomness and generating data from a distribution using a simulation.</p>
 <ul class="simple">
-<li><p>From <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>:</p>
-<ul>
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/09/Randomness.html">9. Randomness</a></p>
 <ul>
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/09/1/Conditional_Statements.html">9.1. Conditional Statements</a></p></li>
@@ -546,6 +545,22 @@ title="Print to PDF"
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/09/3/Simulation.html">9.3. Simulation</a></p></li>
 </ul>
 </li>
+</ul>
+<div class="important admonition">
+<p class="admonition-title">Reading Question</p>
+<ul class="simple">
+<li><p>One of the examples generates the number of Heads in 100 coin tosses. Which of the follow distributions does this number follow?</p>
+<ul>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Binomial_distribution">Binomial distribution</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Poisson_distribution">Poisson distribution</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Normal_distribution">Normal distribution</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Gamma_distribution">Gamma distribution</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Our second readings, also from <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>, discuss generating a distribution from data using sampling.</p>
+<ul class="simple">
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html">10. Sampling and Empirical Distributions</a></p>
 <ul>
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/10/1/Empirical_Distributions.html">10.1. Empirical Distributions</a></p></li>
@@ -553,27 +568,23 @@ title="Print to PDF"
 </ul>
 </li>
 </ul>
-</li>
-<li><p>From <a class="reference external" href="http://www.textbook.ds100.org/intro.html">Learning Data Science</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span>:</p>
+<div class="important admonition">
+<p class="admonition-title">Reading Questions</p>
+<ul class="simple">
+<li><p>What does it mean for a distribution to be <em>empirical</em>?</p></li>
+<li><p>What is the <em>Law of Averages</em>?</p></li>
+</ul>
+</div>
+<div class="admonition-further-resources admonition">
+<p class="admonition-title">Further Resources</p>
+<ul class="simple">
+<li><p>From <a class="reference external" href="http://www.textbook.ds100.org/intro.html">Learning Data Science</a> <span id="id4">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span>:</p>
 <ul>
 <li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/03/theory_urn.html">3.1. The Urn Model</a></p></li>
 </ul>
 </li>
-<li><p>From the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id4">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span></p>
-<ul>
-<li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html">4. Visualization with Matplotlib</a></p>
-<ul>
-<li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/04.05-histograms-and-binnings.html">Histograms, Binnings, and Density</a></p></li>
 </ul>
-</li>
-<li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html">5. Machine Learning</a></p>
-<ul>
-<li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html">In Depth: Linear Regression</a></p></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+</div>
 </section>
 
     <script type="text/x-thebe-config">

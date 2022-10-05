@@ -54,10 +54,8 @@ Readings:
 	
 (Should show the effects of outliers visually as in {numref}`sec:visualize_single_vs_two`.)	
 	
-## Further resources
 
-
-
+```{admonition} Further Resources
 These extra readings from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text` use Calculus and Linear Algebra concepts that are not expected for readers of this book.
 * [15. Linear Models](http://www.textbook.ds100.org/ch/15/linear_intro.html)
   * [15.1. Simple Linear Model](http://www.textbook.ds100.org/ch/15/linear_simple.html)
@@ -65,4 +63,4 @@ These extra readings from [Learning Data Science](http://www.textbook.ds100.org/
   * [15.3. Multiple Linear Model](http://www.textbook.ds100.org/ch/15/linear_multi.html)
   * [15.4. Fitting the Multiple Linear Model](http://www.textbook.ds100.org/ch/15/linear_multi_fit.html)
   * [15.5. Feature Engineering](http://www.textbook.ds100.org/ch/15/linear_feature_eng.html)
-  
+```
