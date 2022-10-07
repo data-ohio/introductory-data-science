@@ -44,9 +44,6 @@ Our second readings, also from [Computational and Inferential Thinking](https://
 ```
 
 
-```{admonition} Further Resources
-* From [Learning Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`:
-  * [3.1. The Urn Model](http://www.textbook.ds100.org/ch/03/theory_urn.html)
-```
+
 	
 	
