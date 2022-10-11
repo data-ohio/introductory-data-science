@@ -16,9 +16,8 @@ Students will be able to estimate the parameters of a model, use simulation meth
 ```
 
 Our first readings, from [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`, discusses the parameter(s) of a distribution and estimating these parameters with a statistic (or several statistics).
-* [10. Sampling and Empirical Distributions](https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html)
-  * [10.3. Empirical Distribution of a Statistic](https://inferentialthinking.com/chapters/10/3/Empirical_Distribution_of_a_Statistic.html)
-  * [10.4. Random Sampling in Python](https://inferentialthinking.com/chapters/10/4/Random_Sampling_in_Python.html)	
+* [10.3. Empirical Distribution of a Statistic](https://inferentialthinking.com/chapters/10/3/Empirical_Distribution_of_a_Statistic.html)
+* [10.4. Random Sampling in Python](https://inferentialthinking.com/chapters/10/4/Random_Sampling_in_Python.html)	
 
 ```{admonition} Reading Questions
 :class: important
