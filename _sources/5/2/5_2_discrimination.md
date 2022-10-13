@@ -20,3 +20,13 @@ Readings:
 [The 6 most common types of bias when working with data](https://www.metabase.com/blog/6-most-common-type-of-data-bias-in-data-analysis), a 2021 blog post.
 
 Wikipedia's entry on [Redlining](https://en.wikipedia.org/wiki/Redlining)
+
+[Data Discrimination: celebrate diversity, not averages](https://bd4.ai/insights/what-is-data-discrimination),  a 2022 blog post.
+% short, almost vacuous
+
+[Types of Bias in Statistics and the Affect Data Bias Has on Your Business](https://mailchimp.com/resources/data-bias-causes-effects/), a post.
+% short, almost vacuous
+
+Class lecture notes from [IFT6758 - Data Science](https://ift6758.github.io/):
+[Data Bias and Algorithmic Discrimination](https://ift6758.github.io/lectures/algorithmic_bias.pdf) 
+% grad course, most too advanced * [Privacy and the Risk of Fairwashing in Machine Learning](https://ift6758.github.io/lectures/privacy.pdf) 

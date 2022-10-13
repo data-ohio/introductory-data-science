@@ -26,3 +26,12 @@ Federal Data Strategy [Data Ethics Framework](https://resources.data.gov/assets/
 [5 Principles of Data Ethics for Business](https://online.hbs.edu/blog/post/data-ethics), a 2021 blog post.
 
 [What Is Data Ethics?](https://www.dataversity.net/what-are-data-ethics/), a 2021 blog post.
+
+[When It Comes to Data Collection, Transparency and Ethical Standards Are Not a Matter of Choice](https://www.dataversity.net/when-it-comes-to-data-collection-transparency-and-ethical-standards-are-not-a-matter-of-choice/), a 2021 blog post.
+% short, almost vacuous
+
+[How Data-Manipulation and Non-Transparent Reporting is Polluting the Research World](https://www.sciencerepository.org/how-data-manipulation-and-non-transparent-reporting-is-polluting-the-research-world), a 2021 blog post.
+% from researcher perspective; more useful
+
+[Why Data Transparency Matters](https://www.toric.com/blog/data-transparency), a post.
+
