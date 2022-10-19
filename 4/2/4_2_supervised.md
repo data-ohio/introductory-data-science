@@ -1,3 +1,4 @@
+(sec:supervised_learning)=
 # Supervised Learning
 
 ```{admonition} Learning Outcome
@@ -31,31 +32,48 @@ Students will be able to classify data using supervised machine learning techniq
 
 {cite}`TMM026`
 ```
-Readings:
-* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
-  - [15. Prediction](https://inferentialthinking.com/chapters/15/Prediction.html)
-    * [15.1. Correlation](https://inferentialthinking.com/chapters/15/1/Correlation.html)
-    * [15.2. The Regression Line](https://inferentialthinking.com/chapters/15/2/Regression_Line.html)
-    * [15.3. The Method of Least Squares](https://inferentialthinking.com/chapters/15/3/Method_of_Least_Squares.html)
-    * [15.4. Least Squares Regression](https://inferentialthinking.com/chapters/15/4/Least_Squares_Regression.html)
-    * [15.5. Visual Diagnostics](https://inferentialthinking.com/chapters/15/5/Visual_Diagnostics.html)
-    * [15.6. Numerical Diagnostics](https://inferentialthinking.com/chapters/15/6/Numerical_Diagnostics.html)
-  - [17. Classification](https://inferentialthinking.com/chapters/17/Classification.html)
-    * [17.1. Nearest Neighbors](https://inferentialthinking.com/chapters/17/1/Nearest_Neighbors.html)
-    * [17.2. Training and Testing](https://inferentialthinking.com/chapters/17/2/Training_and_Testing.html)
-    * [17.3. Rows of Tables](https://inferentialthinking.com/chapters/17/3/Rows_of_Tables.html)
-    * [17.4. Implementing the Classifier](https://inferentialthinking.com/chapters/17/4/Implementing_the_Classifier.html)
-    * [17.5. The Accuracy of the Classifier](https://inferentialthinking.com/chapters/17/5/Accuracy_of_the_Classifier.html)
-    * [17.6. Multiple Regression](https://inferentialthinking.com/chapters/17/6/Multiple_Regression.html)
+Our first readings, from [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`, explain the simplest statistical learning model of fitting a line to show the relationship between two features.
+* [15. Prediction](https://inferentialthinking.com/chapters/15/Prediction.html)
+  * [15.1. Correlation](https://inferentialthinking.com/chapters/15/1/Correlation.html)
+  * [15.2. The Regression Line](https://inferentialthinking.com/chapters/15/2/Regression_Line.html)
+  * [15.3. The Method of Least Squares](https://inferentialthinking.com/chapters/15/3/Method_of_Least_Squares.html)
+  * [15.4. Least Squares Regression](https://inferentialthinking.com/chapters/15/4/Least_Squares_Regression.html)
+  * [15.5. Visual Diagnostics](https://inferentialthinking.com/chapters/15/5/Visual_Diagnostics.html)
+  * [15.6. Numerical Diagnostics](https://inferentialthinking.com/chapters/15/6/Numerical_Diagnostics.html)
 	
-* From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
-  * [5. Machine Learning](https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html)
-	* [In Depth: Linear Regression](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html)  
-	
-(Should show the effects of outliers visually as in {numref}`sec:visualize_single_vs_two`.)	
-	
+```{admonition} Reading Questions
+:class: important
+* How do you calculate a *correlation coefficient*?
+* Why is it called *least squares*?
+```	
+```{admonition} Thinking Question
+:class: important
+* How would an outlier affect the regression line?
+```	
 
-```{admonition} Further Resources
+Our second readings, also from [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`, explain the simplest machine learning algorithm for classification.
+* [17. Classification](https://inferentialthinking.com/chapters/17/Classification.html)
+  * [17.1. Nearest Neighbors](https://inferentialthinking.com/chapters/17/1/Nearest_Neighbors.html)
+  * [17.2. Training and Testing](https://inferentialthinking.com/chapters/17/2/Training_and_Testing.html)
+  * [17.3. Rows of Tables](https://inferentialthinking.com/chapters/17/3/Rows_of_Tables.html)
+  * [17.4. Implementing the Classifier](https://inferentialthinking.com/chapters/17/4/Implementing_the_Classifier.html)
+  * [17.5. The Accuracy of the Classifier](https://inferentialthinking.com/chapters/17/5/Accuracy_of_the_Classifier.html)
+  * [17.6. Multiple Regression](https://inferentialthinking.com/chapters/17/6/Multiple_Regression.html)
+
+```{admonition} Reading Questions
+:class: important
+* What is the *k* in *k-nearest neighbors*?
+* What is the difference between an *attribute* and a *feature*?
+* How do you measure the accuracy of a classifier?
+```	
+
+
+```{admonition} Further Resource
+This reading, from [5. Machine Learning](https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html) in the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`, goes deeper into linear regression.
+* [In Depth: Linear Regression](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html)  
+```
+
+```{admonition} Further Resource
 These extra readings from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text` use Calculus and Linear Algebra concepts that are not expected for readers of this book.
 * [15. Linear Models](http://www.textbook.ds100.org/ch/15/linear_intro.html)
   * [15.1. Simple Linear Model](http://www.textbook.ds100.org/ch/15/linear_simple.html)
