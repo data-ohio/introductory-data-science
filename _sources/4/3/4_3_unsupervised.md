@@ -1,3 +1,4 @@
+(sec:unsupervised_learning)=
 # Unsupervised Learning
 
 ```{admonition} Learning Outcome

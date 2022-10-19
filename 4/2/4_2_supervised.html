@@ -520,7 +520,7 @@ title="Print to PDF"
               <div>
                 
   <section class="tex2jax_ignore mathjax_ignore" id="supervised-learning">
-<h1><span class="section-number">4.2. </span>Supervised Learning<a class="headerlink" href="#supervised-learning" title="Permalink to this headline">#</a></h1>
+<span id="sec-supervised-learning"></span><h1><span class="section-number">4.2. </span>Supervised Learning<a class="headerlink" href="#supervised-learning" title="Permalink to this headline">#</a></h1>
 <div class="tip admonition">
 <p class="admonition-title">Learning Outcome</p>
 <p>Students will be able to classify data using supervised machine learning techniques, search for and define a function that describes how different measured variables are related to one another and utilize predictive techniques such as linear regression.</p>
@@ -553,10 +553,8 @@ title="Print to PDF"
 </ul>
 <p><span id="id1">[<a class="reference internal" href="../../intro.html#id15" title="Ohio Department of Higher Education. TMM026-Introductory Data Science. 12 2021. URL: https://www.ohiohighered.org/sites/default/files/uploads/transfer/policy/Introductory%20to%20Data%20Science%20Learning%20Outcomes%20%2812.3.21%29.pdf.">OhioDoHEducation21</a>]</span></p>
 </div>
-<p>Readings:</p>
+<p>Our first readings, from <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>, explain the simplest statistical learning model of fitting a line to show the relationship between two features.</p>
 <ul class="simple">
-<li><p>From <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>:</p>
-<ul>
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/15/Prediction.html">15. Prediction</a></p>
 <ul>
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/15/1/Correlation.html">15.1. Correlation</a></p></li>
@@ -567,6 +565,22 @@ title="Print to PDF"
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/15/6/Numerical_Diagnostics.html">15.6. Numerical Diagnostics</a></p></li>
 </ul>
 </li>
+</ul>
+<div class="important admonition">
+<p class="admonition-title">Reading Questions</p>
+<ul class="simple">
+<li><p>How do you calculate a <em>correlation coefficient</em>?</p></li>
+<li><p>Why is it called <em>least squares</em>?</p></li>
+</ul>
+</div>
+<div class="important admonition">
+<p class="admonition-title">Thinking Question</p>
+<ul class="simple">
+<li><p>How would an outlier affect the regression line?</p></li>
+</ul>
+</div>
+<p>Our second readings, also from <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>, explain the simplest machine learning algorithm for classification.</p>
+<ul class="simple">
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/17/Classification.html">17. Classification</a></p>
 <ul>
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/17/1/Nearest_Neighbors.html">17.1. Nearest Neighbors</a></p></li>
@@ -578,21 +592,24 @@ title="Print to PDF"
 </ul>
 </li>
 </ul>
-</li>
-<li><p>From the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span></p>
-<ul>
-<li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html">5. Machine Learning</a></p>
-<ul>
+<div class="important admonition">
+<p class="admonition-title">Reading Questions</p>
+<ul class="simple">
+<li><p>What is the <em>k</em> in <em>k-nearest neighbors</em>?</p></li>
+<li><p>What is the difference between an <em>attribute</em> and a <em>feature</em>?</p></li>
+<li><p>How do you measure the accuracy of a classifier?</p></li>
+</ul>
+</div>
+<div class="admonition-further-resource admonition">
+<p class="admonition-title">Further Resource</p>
+<p>This reading, from <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html">5. Machine Learning</a> in the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id4">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span>, goes deeper into linear regression.</p>
+<ul class="simple">
 <li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html">In Depth: Linear Regression</a></p></li>
 </ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>(Should show the effects of outliers visually as in <a class="reference internal" href="../../2/2/2_2_charting_techniques.html#sec-visualize-single-vs-two"><span class="std std-numref">Section 2.2</span></a>.)</p>
-<div class="admonition-further-resources admonition">
-<p class="admonition-title">Further Resources</p>
-<p>These extra readings from <a class="reference external" href="http://www.textbook.ds100.org/">Learning Data Science</a> <span id="id4">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span> use Calculus and Linear Algebra concepts that are not expected for readers of this book.</p>
+</div>
+<div class="admonition-further-resource admonition">
+<p class="admonition-title">Further Resource</p>
+<p>These extra readings from <a class="reference external" href="http://www.textbook.ds100.org/">Learning Data Science</a> <span id="id5">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span> use Calculus and Linear Algebra concepts that are not expected for readers of this book.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/15/linear_intro.html">15. Linear Models</a></p>
 <ul>
