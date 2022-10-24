@@ -31,7 +31,7 @@ Our second reading is Wikipedia's entry [Statistical learning theory](https://en
 * What is the difference between Machine Learning and Statistical Learning?
 ```
 
-Our third reading, also from the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`, gives on overview of the `sklearn` library of machine learning algorithms, which we will learn more about in {numref}`sec:supervised_learning` and {numref}`sec:unsupervised_learning`.
+Our third reading, also from the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`, gives on overview of the `sklearn` library of machine learning algorithms.
 * [Introducing Scikit-Learn](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html)
 
 ```{admonition} Reading Questions

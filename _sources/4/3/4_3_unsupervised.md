@@ -16,6 +16,12 @@ Students will be able to use algorithms to draw inferences from datasets consist
 {cite}`TMM026`
 ```
 
-* From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
-  * [5. Machine Learning](https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html)
-	* [In Depth: k-Means Clustering](https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html) 
+Our reading, from [5. Machine Learning](https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html) in the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`, explains *k-means clustering* and how to use `sklearn` to perform it.
+* [In Depth: k-Means Clustering](https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html) 
+
+```{admonition} Reading Question
+:class: important
+* What goes wrong if k is too small?
+* What goes wrong if k is too large?
+* What is a *confusion matrix*?
+```	
