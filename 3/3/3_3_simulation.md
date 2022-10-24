@@ -37,7 +37,7 @@ Our second reading, also from [Computational and Inferential Thinking](https://i
 :class: important
 * If 37 people take a test:
   * How many will score less than the median?
-  * How many will score less than of equal to the median?
+  * How many will score less than or equal to the median?
 ```
 
 Our third reading, from [Learning Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`, discusses simulating the probabilities in a classic model of drawing balls from an urn.
