@@ -5,8 +5,14 @@
 You can load it into a python session with
 
     import pandas as pd
-It is not as user-friendly as the `datascience` library we saw in {numref}`sec:intro_python`, but it can do more things, some of which we need to be able to do in {numref}`sec:wrangling` and later.
+It is not as user-friendly as the `datascience` library we saw in {numref}`sec:intro_python`, but it can do more things.
+If you need to convert a `datascience.Table` to a `pandas.DataFrame`, you can use this function:
 
+	import pandas as pd
+	def tbl2df(tbl):
+	    """Return a pandas.DataFrame version of the input datascience.Table"""
+	    return pd.DataFrame({x : tbl.column(x) for x in tbl.labels})
+	
 Our readings are from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text` and mostly teach us how to use `pandas` to do the things we already learned to do with `datascience` in {numref}`sec:organize`.
 - [6. Working With Dataframes Using pandas](http://www.textbook.ds100.org/ch/06/pandas_intro.html)
   * [6.1. Subsetting](http://www.textbook.ds100.org/ch/06/pandas_subsetting.html)
@@ -33,8 +39,7 @@ Our readings are from [Learning Data Science](http://www.textbook.ds100.org/) {c
   How would you accomplish the same things?
 ```
 
-
-## Further resources
+```{admonition} Further Resources
 * From [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html) {cite}`BEUZEN:2021`:
   * [Chapter 7: Introduction to Pandas](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter7-pandas.html)
     * [2. Pandas Series](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter7-pandas.html#pandas-series)
@@ -52,3 +57,4 @@ Our readings are from [Learning Data Science](http://www.textbook.ds100.org/) {c
   * [Getting started tutorials](https://pandas.pydata.org/docs/getting_started/intro_tutorials/)
   * [User Guide](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
   * [API reference (documentation)](https://pandas.pydata.org/docs/reference/index.html)
+```
