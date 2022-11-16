@@ -13,25 +13,38 @@ Students will be able to identify clarity in methods of analysis of data and dem
 
 {cite}`TMM026`
 ```
-Readings:
-* From {cite}`BA-KA-HO:2021`:
-  - [Chapter 8 Data science ethics](https://mdsr-book.github.io/mdsr2e/ch-ethics.html)
-    * [8.2 Truthful falsehoods](https://mdsr-book.github.io/mdsr2e/ch-ethics.html#truthful-falsehoods)
-	* [8.6 Algorithmic bias](https://mdsr-book.github.io/mdsr2e/ch-ethics.html#algorithmic-bias)
-	* [8.8 Reproducibility](https://mdsr-book.github.io/mdsr2e/ch-ethics.html#sec:reproducibility)
+
+Our first reading, from [Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/) {cite}`BA-KA-HO:2021`, gives some examples where "true" data is presented in such a way as to convey false meaning. 
+Similar issues were discussed in {numref}`sec:misleading_graphs`.
+* [8.2 Truthful falsehoods](https://mdsr-book.github.io/mdsr2e/ch-ethics.html#truthful-falsehoods)
+
+```{admonition} Reading Question
+:class: important
+* Is global temperature increasing?
+```
+
+Our second reading, also from [Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/) {cite}`BA-KA-HO:2021`, discusses the importance of making your analysis reproducible, so others could check it.
+* [8.8 Reproducibility](https://mdsr-book.github.io/mdsr2e/ch-ethics.html#sec:reproducibility)
 	
+```{admonition} Reading Question
+:class: important
+* If your analysis is correct, why do others need to be able to reproduce it?
+```
 
-Federal Data Strategy [Data Ethics Framework](https://resources.data.gov/assets/documents/fds-data-ethics-framework.pdf)
+Our third reading, a 2021 blog post, discusses the dangers poor data ethics pose to research.
+* [How Data-Manipulation and Non-Transparent Reporting is Polluting the Research World](https://www.sciencerepository.org/how-data-manipulation-and-non-transparent-reporting-is-polluting-the-research-world)
+  % from researcher perspective; more useful
+  
+```{admonition} Reading Question
+:class: important
+* If your data contradicts your hypothesis, should you still (try to) publlish it?
+```
 
-[5 Principles of Data Ethics for Business](https://online.hbs.edu/blog/post/data-ethics), a 2021 blog post.
-
-[What Is Data Ethics?](https://www.dataversity.net/what-are-data-ethics/), a 2021 blog post.
-
-[When It Comes to Data Collection, Transparency and Ethical Standards Are Not a Matter of Choice](https://www.dataversity.net/when-it-comes-to-data-collection-transparency-and-ethical-standards-are-not-a-matter-of-choice/), a 2021 blog post.
-% short, almost vacuous
-
-[How Data-Manipulation and Non-Transparent Reporting is Polluting the Research World](https://www.sciencerepository.org/how-data-manipulation-and-non-transparent-reporting-is-polluting-the-research-world), a 2021 blog post.
-% from researcher perspective; more useful
-
-[Why Data Transparency Matters](https://www.toric.com/blog/data-transparency), a post.
-
+```{admonition} Further Resources
+* Federal Data Strategy [Data Ethics Framework](https://resources.data.gov/assets/documents/fds-data-ethics-framework.pdf)
+* [5 Principles of Data Ethics for Business](https://online.hbs.edu/blog/post/data-ethics), a 2021 blog post.
+* [What Is Data Ethics?](https://www.dataversity.net/what-are-data-ethics/), a 2021 blog post.
+* [When It Comes to Data Collection, Transparency and Ethical Standards Are Not a Matter of Choice](https://www.dataversity.net/when-it-comes-to-data-collection-transparency-and-ethical-standards-are-not-a-matter-of-choice/), a 2021 blog post.
+  % short, almost vacuous
+* [Why Data Transparency Matters](https://www.toric.com/blog/data-transparency), a post.
+```

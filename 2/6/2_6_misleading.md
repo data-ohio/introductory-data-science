@@ -1,3 +1,4 @@
+(sec:misleading_graphs)=
 # Misleading Graphs
 
 ```{admonition} Learning Outcome
@@ -53,7 +54,7 @@ It describes a principle that is often violated in advertising to distort relati
 Our third reading, from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), describes methods used to create misleading graphs.
 * [Misleading graph](https://en.wikipedia.org/wiki/Misleading_graph)
 
-```{admonition} Reading Questions
+```{admonition} Reading Question
 :class: important
 * What is the *Lie factor*?
 ```
