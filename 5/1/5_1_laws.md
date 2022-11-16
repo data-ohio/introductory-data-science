@@ -16,9 +16,32 @@ We have two readings on the European General Data Protection Regulation (GDPR):
 * The overview [What is GDPR, the EU’s new data protection law?](https://gdpr.eu/what-is-gdpr/) from the [Complete guide to GDPR compliance](https://gdpr.eu/).
 * Wikipedia's entry on [General Data Protection Regulation](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation).
 
+	
+```{admonition} Reading Questions
+:class: important
+Under GDPR:
+* How long can a business save personally identifying information in an archive?
+* Can a business collect and process personal data in order to save someone's life?
+* What is the right to erasure?
+```	
+
 On the California Privacy Rights Act of 2020, our reading is an [Executive Summary](https://www.caprivacy.org/cpra-exec-summary/).
   
+```{admonition} Reading Questions
+:class: important
+Under the California Privacy Rights Act:
+* How long can a business save personally identifying information in an archive?
+* Do people have the right to stop businesses from using their race?
+* Do people have the right to erasure?
+```	
+
 [Section 230 of the Communications Decency Act](https://www.eff.org/issues/cda230) summary and interpretation.
+
+```{admonition} Reading Question
+:class: important
+Under the CDA:
+* Can you host a website on which other people post lies, post threats, or try to defraud others without you getting in trouble?
+```	
 
 
 ```{admonition} Further Resources
