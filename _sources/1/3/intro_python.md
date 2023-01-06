@@ -43,8 +43,7 @@ In {numref}`sec:intro_pandas` we will learn about the more complex and more powe
 * How would you use `np.arange` to create `array([ 1.5,  1. ,  0.5,  0. , -0.5])`?
 ```
 
-## Further resources
-
+```{admonition} Further Resource
 * From [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html) {cite}`BEUZEN:2021`:
   * [Chapter 1: Python Basics](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter1-basics.html)
     * [2. Basic Python Data Types](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter1-basics.html#basic-python-data-types)
@@ -76,4 +75,4 @@ In {numref}`sec:intro_pandas` we will learn about the more complex and more powe
   * [Python for Beginners](https://www.python.org/about/gettingstarted/)
   * [The Python Tutorial](https://docs.python.org/3/tutorial/)
   * [Python Documentation](https://docs.python.org/3/)
-  
+```

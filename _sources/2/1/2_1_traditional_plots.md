@@ -44,9 +44,7 @@ It runs through examples of several different types of plots and discusses which
 * When should you apply a logarithm transform before plotting?
 ```
 	
-## Further Resources
-	
-### Plotting via Matplotlib
+````{admonition} Further Resource: Plotting via Matplotlib
 
 These readings, from the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`, explain how to plot using the `matplotlib` library. 
 Matplotlib is a (the?) standard plotting library in python.
@@ -72,9 +70,9 @@ The plotting in `pandas` is built on top of `matplotlib`.
     * [Quick Start](https://matplotlib.org/stable/tutorials/introductory/usage.html)
     * [Pyplot tutorial](https://matplotlib.org/3.5.0/tutorials/introductory/pyplot.html)
   * [Documentation](https://matplotlib.org/stable/index.html)
+````
 
-### Plotting via Seaborn
-
+```{admonition} Further Resource: Plotting via Seaborn
 Seaborn is a plotting library built on top of `matplotlib` to automatically give nice plots for statistical data in pandas dataframes.
 Typically you load it in a python session with
 
@@ -84,3 +82,4 @@ Typically you load it in a python session with
   * [Introduction](https://seaborn.pydata.org/introduction.html)
   * [Tutorial](https://seaborn.pydata.org/tutorial.html)
   * [Documentation](https://seaborn.pydata.org/api.html)
+```

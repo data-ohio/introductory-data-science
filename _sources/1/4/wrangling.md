@@ -21,8 +21,7 @@ Our readings, from [Learning Data Science](http://www.textbook.ds100.org/) {cite
 * How do you convert `20160513` to the date `2016-05-13`?
 ```
 
-
-## Further resources
+```{admonition} Further Resources
 * From [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html) {cite}`BEUZEN:2021`:
   * [Chapter 8: Basic Data Wrangling With Pandas](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter8-wrangling-basics.html)
     * [1. DataFrame Characteristics](https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter8-wrangling-basics.html#dataframe-characteristics)
@@ -33,3 +32,4 @@ Our readings, from [Learning Data Science](http://www.textbook.ds100.org/) {cite
 * From the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) {cite}`VANDER:2016`
   * [3. Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
     * [Handling Missing Data](https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html)
+```

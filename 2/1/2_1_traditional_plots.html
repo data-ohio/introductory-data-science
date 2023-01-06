@@ -495,48 +495,12 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#further-resources">
-   2.1.1. Further Resources
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#plotting-via-matplotlib">
-     2.1.1.1. Plotting via Matplotlib
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#plotting-via-seaborn">
-     2.1.1.2. Plotting via Seaborn
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
-    </nav>
 </div>
     </div>
     <div class="article row">
@@ -548,31 +512,6 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#further-resources">
-   2.1.1. Further Resources
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#plotting-via-matplotlib">
-     2.1.1.1. Plotting via Matplotlib
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#plotting-via-seaborn">
-     2.1.1.2. Plotting via Seaborn
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -637,10 +576,8 @@ It runs through examples of several different types of plots and discusses which
 <li><p>When should you apply a logarithm transform before plotting?</p></li>
 </ul>
 </div>
-<section id="further-resources">
-<h2><span class="section-number">2.1.1. </span>Further Resources<a class="headerlink" href="#further-resources" title="Permalink to this headline">#</a></h2>
-<section id="plotting-via-matplotlib">
-<h3><span class="section-number">2.1.1.1. </span>Plotting via Matplotlib<a class="headerlink" href="#plotting-via-matplotlib" title="Permalink to this headline">#</a></h3>
+<div class="admonition-further-resource-plotting-via-matplotlib admonition">
+<p class="admonition-title">Further Resource: Plotting via Matplotlib</p>
 <p>These readings, from the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id4">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span>, explain how to plot using the <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> library.
 Matplotlib is a (the?) standard plotting library in python.
 Typically you load it in a python session with</p>
@@ -678,9 +615,9 @@ Typically you load it in a python session with</p>
 </ul>
 </li>
 </ul>
-</section>
-<section id="plotting-via-seaborn">
-<h3><span class="section-number">2.1.1.2. </span>Plotting via Seaborn<a class="headerlink" href="#plotting-via-seaborn" title="Permalink to this headline">#</a></h3>
+</div>
+<div class="admonition-further-resource-plotting-via-seaborn admonition">
+<p class="admonition-title">Further Resource: Plotting via Seaborn</p>
 <p>Seaborn is a plotting library built on top of <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> to automatically give nice plots for statistical data in pandas dataframes.
 Typically you load it in a python session with</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>import seaborn as sns
@@ -695,8 +632,7 @@ Typically you load it in a python session with</p>
 </ul>
 </li>
 </ul>
-</section>
-</section>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -749,7 +685,7 @@ Typically you load it in a python session with</p>
   
     By Martin J. Mohlenkamp<br/>
   
-      &copy; Copyright 2022.<br/>
+      &copy; Copyright 2022, 2023.<br/>
 </p>
         </footer>
     </div>
