@@ -3,7 +3,7 @@
 
 Our readings, from [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`, show how to create tables and manipulate them to organize the data in them.
 These again use the `datascience` library, especially its `Table` object. 
-In {numref}`sec:intro_pandas` we will learn about the more complex and more powerful `dataframe` object in the `pandas` library.
+% In {numref}`sec:intro_pandas` we will learn about the more complex and more powerful `dataframe` object in the `pandas` library.
 * [3. Programming in Python](https://inferentialthinking.com/chapters/03/programming-in-python.html)
   * [3.4. Introduction to Tables](https://inferentialthinking.com/chapters/03/4/Introduction_to_Tables.html)
 * [6. Tables](https://inferentialthinking.com/chapters/06/Tables.html#)

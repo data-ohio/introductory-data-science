@@ -30,7 +30,7 @@ If you want to try the examples in these readings, first do
 
     from datascience import *
 
-In {numref}`sec:intro_pandas` we will learn about the more complex and more powerful `pandas` library.
+% In {numref}`sec:intro_pandas` we will learn about the more complex and more powerful `pandas` library.
 - [3. Programming in Python](https://inferentialthinking.com/chapters/03/programming-in-python.html)
   * [3.4. Introduction to Tables](https://inferentialthinking.com/chapters/03/4/Introduction_to_Tables.html)
 - [5. Sequences](https://inferentialthinking.com/chapters/05/Sequences.html)
