@@ -166,13 +166,18 @@ const thebe_selector_output = ".output, .cell_output"
     </label>
     <ul>
      <li class="toctree-l3">
+      <a class="reference internal" href="1/4/more_python.html">
+       1.4.1. More Python
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="1/4/intro_pandas.html">
-       1.4.1. Introduction to Pandas
+       1.4.2. Introduction to Pandas
       </a>
      </li>
      <li class="toctree-l3">
       <a class="reference internal" href="1/4/wrangling.html">
-       1.4.2. Data Wrangling
+       1.4.3. Data Wrangling
       </a>
      </li>
     </ul>
@@ -522,8 +527,13 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-is-data-science-and-why-should-you-care-about-it">
-   What is Data Science and why should you care about it?
+  <a class="reference internal nav-link" href="#what-is-data-science-and-why-should-you-care">
+   What is Data Science and why should you care?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#programming-language-and-libraries">
+   Programming Language and Libraries
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -561,8 +571,13 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-is-data-science-and-why-should-you-care-about-it">
-   What is Data Science and why should you care about it?
+  <a class="reference internal nav-link" href="#what-is-data-science-and-why-should-you-care">
+   What is Data Science and why should you care?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#programming-language-and-libraries">
+   Programming Language and Libraries
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -607,8 +622,6 @@ title="Print to PDF"
 <p>This book is designed to satisfy <a class="reference external" href="https://www.ohiohighered.org/sites/default/files/uploads/transfer/policy/Introductory%20to%20Data%20Science%20Learning%20Outcomes%20%2812.3.21%29.pdf">TMM026-Introductory Data Science</a> <span id="id2">[<a class="reference internal" href="#id15" title="Ohio Department of Higher Education. TMM026-Introductory Data Science. 12 2021. URL: https://www.ohiohighered.org/sites/default/files/uploads/transfer/policy/Introductory%20to%20Data%20Science%20Learning%20Outcomes%20%2812.3.21%29.pdf.">OhioDoHEducation21</a>]</span>, which is the Ohio Department of Higher Education’s standard for transferability under <a class="reference external" href="https://www.ohiohighered.org/Ohio-Transfer-36">Ohio Transfer 36</a>.
 Each section here corresponds to the Learning Outcome with the same number.
 Sections <a class="reference internal" href="3/4/3_4_loss.html#sec-3-4-loss"><span class="std std-numref">3.4</span></a>, <a class="reference internal" href="3/5/3_5_diagnostics.html#sec-3-5-diagnostics"><span class="std std-numref">3.5</span></a>, <a class="reference internal" href="3/6/3_6_estimation.html#sec-3-6-estimation"><span class="std std-numref">3.6</span></a>, and <a class="reference internal" href="4/4/4_4_sentiment.html#sec-4-4-sentiment"><span class="std std-numref">4.4</span></a> are considered optional under TMM026 and are marked with a * in their title.</p>
-<p>We use <a class="reference external" href="https://www.python.org/">Python</a> as the programming language, but do not assume the reader has any prior knowledge of Python or any programming experience.
-Some of the suggested readings contain examples using the <a class="reference external" href="https://www.r-project.org/">R</a> language, but the reader does not need to understand how those work.</p>
 <p>Typically, someone writes a book because either</p>
 <ul class="simple">
 <li><p>they think they have something new and important to say, or</p></li>
@@ -619,13 +632,11 @@ Instead, the goal is to organize existing high-quality materials to support a co
 We rely on publicly available material from several sources and
 would like to particularly acknowledge <span id="id3">[<a class="reference internal" href="#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>, <a class="reference internal" href="#id12" title="Benjamin S. Baumer, Daniel T. Kaplan, and Nicholas J. Horton. Modern Data Science with R. Self Published, 2nd edition, 2021. URL: https://mdsr-book.github.io/mdsr2e/.">BKH21</a>, <a class="reference internal" href="#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span>.</p>
 </section>
-<section id="what-is-data-science-and-why-should-you-care-about-it">
-<h2>What is Data Science and why should you care about it?<a class="headerlink" href="#what-is-data-science-and-why-should-you-care-about-it" title="Permalink to this headline">#</a></h2>
-<p>As stated above, others have already exlained this well, so:</p>
-<p>Readings:</p>
+<section id="what-is-data-science-and-why-should-you-care">
+<h2>What is Data Science and why should you care?<a class="headerlink" href="#what-is-data-science-and-why-should-you-care" title="Permalink to this headline">#</a></h2>
+<p>As stated above, others have already explained this well, so we will use what they have written.</p>
+<p>Our first reading, from <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id4">[<a class="reference internal" href="#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>, gives a quick <em>what</em> and <em>why</em> explanation.</p>
 <ul class="simple">
-<li><p>From <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id4">[<a class="reference internal" href="#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>:</p>
-<ul>
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/01/what-is-data-science.html">1. What is Data Science?</a></p>
 <ul>
 <li><p><a class="reference external" href="https://inferentialthinking.com/chapters/01/1/intro.html">1.1. Chapter 1: Introduction</a></p></li>
@@ -633,9 +644,8 @@ would like to particularly acknowledge <span id="id3">[<a class="reference inter
 </ul>
 </li>
 </ul>
-</li>
-<li><p>From <a class="reference external" href="http://www.textbook.ds100.org/intro.html">Learning Data Science</a> <span id="id5">[<a class="reference internal" href="#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span>:</p>
-<ul>
+<p>Our second reading, from <a class="reference external" href="http://www.textbook.ds100.org/intro.html">Learning Data Science</a> <span id="id5">[<a class="reference internal" href="#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span>, walks through the big picture of what one does in data science.</p>
+<ul class="simple">
 <li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/01/lifecycle_intro.html">1. The Data Science Lifecycle</a></p>
 <ul>
 <li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/01/lifecycle_question.html">1.1. Asking a Question</a></p></li>
@@ -645,8 +655,18 @@ would like to particularly acknowledge <span id="id3">[<a class="reference inter
 </ul>
 </li>
 </ul>
-</li>
-</ul>
+</section>
+<section id="programming-language-and-libraries">
+<h2>Programming Language and Libraries<a class="headerlink" href="#programming-language-and-libraries" title="Permalink to this headline">#</a></h2>
+<p>We use <a class="reference external" href="https://www.python.org/">Python</a> as the programming language, but do not assume the reader has any prior knowledge of Python or any programming experience.
+Some of the suggested readings contain examples using the <a class="reference external" href="https://www.r-project.org/">R</a> language, but the reader does not need to understand how those work.</p>
+<p>As much as possible, we use the python <code class="docutils literal notranslate"><span class="pre">datascience</span></code> library, which was created for the <a class="reference external" href="http://data8.org/">DATA 8 The Foundations of Data Science</a> course at the University of California at Berkeley.</p>
+<blockquote>
+<div><p>The datascience package is an open source Python package that helps make programming more accessible to all students, regardless of background. As a pedagogical aid, the package is designed to help students more intuitively conduct data science techniques without first spending considerable time directly learning more complex tools such as pandas or matplotlib. At Berkeley, these other packages are introduced in further upper-division coursework such as Data 100.</p>
+<p><a class="reference external" href="http://data8.org/zero-to-data-8/datascience.html">source</a></p>
+</div></blockquote>
+<p>When needed, we also use the python <code class="docutils literal notranslate"><span class="pre">pandas</span></code> library.
+The <a class="reference external" href="https://pandas.pydata.org/">Pandas</a> data analysis library is heavily used in practice, so several of our sources describe data science concepts using <code class="docutils literal notranslate"><span class="pre">pandas</span></code> code.</p>
 </section>
 <section id="acknowledgements">
 <h2>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permalink to this headline">#</a></h2>
