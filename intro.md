@@ -21,10 +21,6 @@ This book is designed to satisfy [TMM026-Introductory Data Science](https://www.
 Each section here corresponds to the Learning Outcome with the same number.
 Sections {numref}`%s <sec:3_4_loss>`, {numref}`%s <sec:3_5_diagnostics>`, {numref}`%s <sec:3_6_estimation>`, and {numref}`%s <sec:4_4_sentiment>` are considered optional under TMM026 and are marked with a * in their title. 
 
-We use [Python](https://www.python.org/) as the programming language, but do not assume the reader has any prior knowledge of Python or any programming experience.
-Some of the suggested readings contain examples using the [R](https://www.r-project.org/) language, but the reader does not need to understand how those work.
-
-
 Typically, someone writes a book because either
 * they think they have something new and important to say, or
 * they think they can explain better than existing books.
@@ -34,21 +30,35 @@ Instead, the goal is to organize existing high-quality materials to support a co
 We rely on publicly available material from several sources and
 would like to particularly acknowledge {cite}`DATA8text,DATA100text,BA-KA-HO:2021`.
 
-## What is Data Science and why should you care about it?
+## What is Data Science and why should you care?
 
-As stated above, others have already exlained this well, so:
+As stated above, others have already explained this well, so we will use what they have written.
 
-Readings:
-* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
-  * [1. What is Data Science?](https://inferentialthinking.com/chapters/01/what-is-data-science.html)
-    * [1.1. Chapter 1: Introduction](https://inferentialthinking.com/chapters/01/1/intro.html)
-	* [1.2. Why Data Science?](https://inferentialthinking.com/chapters/01/2/why-data-science.html)
-* From [Learning Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`:
-  * [1. The Data Science Lifecycle](http://www.textbook.ds100.org/ch/01/lifecycle_intro.html)
-    * [1.1. Asking a Question](http://www.textbook.ds100.org/ch/01/lifecycle_question.html)
-	* [1.2. Obtaining Data](http://www.textbook.ds100.org/ch/01/lifecycle_obtain.html)
-	* [1.3. Understanding the Data](http://www.textbook.ds100.org/ch/01/lifecycle_data.html)
-	* [1.4. Understanding the World](http://www.textbook.ds100.org/ch/01/lifecycle_world.html)
+Our first reading, from [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`, gives a quick *what* and *why* explanation.
+* [1. What is Data Science?](https://inferentialthinking.com/chapters/01/what-is-data-science.html)
+  * [1.1. Chapter 1: Introduction](https://inferentialthinking.com/chapters/01/1/intro.html)
+  * [1.2. Why Data Science?](https://inferentialthinking.com/chapters/01/2/why-data-science.html)
+
+Our second reading, from [Learning Data Science](http://www.textbook.ds100.org/intro.html) {cite}`DATA100text`, walks through the big picture of what one does in data science.
+* [1. The Data Science Lifecycle](http://www.textbook.ds100.org/ch/01/lifecycle_intro.html)
+  * [1.1. Asking a Question](http://www.textbook.ds100.org/ch/01/lifecycle_question.html)
+  * [1.2. Obtaining Data](http://www.textbook.ds100.org/ch/01/lifecycle_obtain.html)
+  * [1.3. Understanding the Data](http://www.textbook.ds100.org/ch/01/lifecycle_data.html)
+  * [1.4. Understanding the World](http://www.textbook.ds100.org/ch/01/lifecycle_world.html)
+  
+## Programming Language and Libraries
+
+We use [Python](https://www.python.org/) as the programming language, but do not assume the reader has any prior knowledge of Python or any programming experience.
+Some of the suggested readings contain examples using the [R](https://www.r-project.org/) language, but the reader does not need to understand how those work.
+
+As much as possible, we use the python `datascience` library, which was created for the [DATA 8 The Foundations of Data Science](http://data8.org/) course at the University of California at Berkeley. 
+> The datascience package is an open source Python package that helps make programming more accessible to all students, regardless of background. As a pedagogical aid, the package is designed to help students more intuitively conduct data science techniques without first spending considerable time directly learning more complex tools such as pandas or matplotlib. At Berkeley, these other packages are introduced in further upper-division coursework such as Data 100.
+> 
+> [source](http://data8.org/zero-to-data-8/datascience.html)
+
+When needed, we also use the python `pandas` library.
+The [Pandas](https://pandas.pydata.org/) data analysis library is heavily used in practice, so several of our sources describe data science concepts using `pandas` code.
+
 
 ## Acknowledgements
 
