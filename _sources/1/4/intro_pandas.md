@@ -1,17 +1,25 @@
 (sec:intro_pandas)=
 # Introduction to Pandas
 
-[Pandas](https://pandas.pydata.org/) is a python data analysis library. 
-You can load it into a python session with
+As mentioned in the introduction in {ref}`sec:languagelibraries`, the `datascience` library is designed as an educational tool, to help students learn data science concepts.
+The text  [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text` uses this library.
+As much as possible, we use this text for our readings, but it does not have everything that we need.
+
+Out in the real world, the
+[Pandas](https://pandas.pydata.org/) python data analysis library is used instead. 
+Consequently, the other texts we use are based on `pandas`, as are plotting libraries and other libraries that we will need.
+So:
+* You will need to know how to convert a `datascience.Table` into a `pandas` object so that other libraries can use it.
+* You will need to know enough `pandas` to understand the readings that use it.
+
+The `datascience` library includes conversion methods:
+* [Table.from_df](http://www.data8.org/datascience/_autosummary/datascience.tables.Table.from_df.html#datascience.tables.Table.from_df)  converts a `pandas.DataFrame` into a `datascience.Table`, as in `tbl=Table.from_df(df)`. 	
+* [Table.to_df](http://www.data8.org/datascience/_autosummary/datascience.tables.Table.to_df.html#datascience.tables.Table.to_df) converts a `datascience.Table` into a `pandas.DataFrame`, as in `df=tbl.to_df()`.
+
+
+You can load `pandas` into a python session with
 
     import pandas as pd
-It is not as user-friendly as the `datascience` library we saw in {numref}`sec:intro_python`, but it can do more things.
-If you need to convert a `datascience.Table` to a `pandas.DataFrame`, you can use this function:
-
-	import pandas as pd
-	def tbl2df(tbl):
-	    """Return a pandas.DataFrame version of the input datascience.Table"""
-	    return pd.DataFrame({x : tbl.column(x) for x in tbl.labels})
 	
 Our readings are from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text` and mostly teach us how to use `pandas` to do the things we already learned to do with `datascience` in {numref}`sec:organize`.
 - [6. Working With Dataframes Using pandas](http://www.textbook.ds100.org/ch/06/pandas_intro.html)
@@ -38,6 +46,9 @@ Our readings are from [Learning Data Science](http://www.textbook.ds100.org/) {c
   Now suppose `mydata` is a `pandas` `DataFrame`. 
   How would you accomplish the same things?
 ```
+
+
+
 
 ```{admonition} Further Resources
 * From [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html) {cite}`BEUZEN:2021`:

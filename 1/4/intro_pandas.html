@@ -526,20 +526,27 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="introduction-to-pandas">
 <span id="sec-intro-pandas"></span><h1><span class="section-number">1.4.2. </span>Introduction to Pandas<a class="headerlink" href="#introduction-to-pandas" title="Permalink to this headline">#</a></h1>
-<p><a class="reference external" href="https://pandas.pydata.org/">Pandas</a> is a python data analysis library.
-You can load it into a python session with</p>
+<p>As mentioned in the introduction in <a class="reference internal" href="../../intro.html#sec-languagelibraries"><span class="std std-ref">Programming Language and Libraries</span></a>, the <code class="docutils literal notranslate"><span class="pre">datascience</span></code> library is designed as an educational tool, to help students learn data science concepts.
+The text  <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id1">[<a class="reference internal" href="../../intro.html#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span> uses this library.
+As much as possible, we use this text for our readings, but it does not have everything that we need.</p>
+<p>Out in the real world, the
+<a class="reference external" href="https://pandas.pydata.org/">Pandas</a> python data analysis library is used instead.
+Consequently, the other texts we use are based on <code class="docutils literal notranslate"><span class="pre">pandas</span></code>, as are plotting libraries and other libraries that we will need.
+So:</p>
+<ul class="simple">
+<li><p>You will need to know how to convert a <code class="docutils literal notranslate"><span class="pre">datascience.Table</span></code> into a <code class="docutils literal notranslate"><span class="pre">pandas</span></code> object so that other libraries can use it.</p></li>
+<li><p>You will need to know enough <code class="docutils literal notranslate"><span class="pre">pandas</span></code> to understand the readings that use it.</p></li>
+</ul>
+<p>The <code class="docutils literal notranslate"><span class="pre">datascience</span></code> library includes conversion methods:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.data8.org/datascience/_autosummary/datascience.tables.Table.from_df.html#datascience.tables.Table.from_df">Table.from_df</a>  converts a <code class="docutils literal notranslate"><span class="pre">pandas.DataFrame</span></code> into a <code class="docutils literal notranslate"><span class="pre">datascience.Table</span></code>, as in <code class="docutils literal notranslate"><span class="pre">tbl=Table.from_df(df)</span></code>.</p></li>
+<li><p><a class="reference external" href="http://www.data8.org/datascience/_autosummary/datascience.tables.Table.to_df.html#datascience.tables.Table.to_df">Table.to_df</a> converts a <code class="docutils literal notranslate"><span class="pre">datascience.Table</span></code> into a <code class="docutils literal notranslate"><span class="pre">pandas.DataFrame</span></code>, as in <code class="docutils literal notranslate"><span class="pre">df=tbl.to_df()</span></code>.</p></li>
+</ul>
+<p>You can load <code class="docutils literal notranslate"><span class="pre">pandas</span></code> into a python session with</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>import pandas as pd
 </pre></div>
 </div>
-<p>It is not as user-friendly as the <code class="docutils literal notranslate"><span class="pre">datascience</span></code> library we saw in <a class="reference internal" href="../3/intro_python.html#sec-intro-python"><span class="std std-numref">Section 1.3.1</span></a>, but it can do more things.
-If you need to convert a <code class="docutils literal notranslate"><span class="pre">datascience.Table</span></code> to a <code class="docutils literal notranslate"><span class="pre">pandas.DataFrame</span></code>, you can use this function:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>import pandas as pd
-def tbl2df(tbl):
-    &quot;&quot;&quot;Return a pandas.DataFrame version of the input datascience.Table&quot;&quot;&quot;
-    return pd.DataFrame({x : tbl.column(x) for x in tbl.labels})
-</pre></div>
-</div>
-<p>Our readings are from <a class="reference external" href="http://www.textbook.ds100.org/">Learning Data Science</a> <span id="id1">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span> and mostly teach us how to use <code class="docutils literal notranslate"><span class="pre">pandas</span></code> to do the things we already learned to do with <code class="docutils literal notranslate"><span class="pre">datascience</span></code> in <a class="reference internal" href="../3/organize_table.html#sec-organize"><span class="std std-numref">Section 1.3.2</span></a>.</p>
+<p>Our readings are from <a class="reference external" href="http://www.textbook.ds100.org/">Learning Data Science</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span> and mostly teach us how to use <code class="docutils literal notranslate"><span class="pre">pandas</span></code> to do the things we already learned to do with <code class="docutils literal notranslate"><span class="pre">datascience</span></code> in <a class="reference internal" href="../3/organize_table.html#sec-organize"><span class="std std-numref">Section 1.3.2</span></a>.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/06/pandas_intro.html">6. Working With Dataframes Using pandas</a></p>
 <ul>
@@ -574,7 +581,7 @@ How would you accomplish the same things?</p>
 <div class="admonition-further-resources admonition">
 <p class="admonition-title">Further Resources</p>
 <ul class="simple">
-<li><p>From <a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/README.html">Python Programming for Data Science</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id14" title="Tomas Beuzen. Python Programming for Data Science. Self-published, 2021. URL: https://www.tomasbeuzen.com/python-programming-for-data-science/README.html.">Beu21</a>]</span>:</p>
+<li><p>From <a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/README.html">Python Programming for Data Science</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id14" title="Tomas Beuzen. Python Programming for Data Science. Self-published, 2021. URL: https://www.tomasbeuzen.com/python-programming-for-data-science/README.html.">Beu21</a>]</span>:</p>
 <ul>
 <li><p><a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter7-pandas.html">Chapter 7: Introduction to Pandas</a></p>
 <ul>
@@ -584,7 +591,7 @@ How would you accomplish the same things?</p>
 </li>
 </ul>
 </li>
-<li><p>From the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span></p>
+<li><p>From the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id4">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span></p>
 <ul>
 <li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html">3. Data Manipulation with Pandas</a></p>
 <ul>

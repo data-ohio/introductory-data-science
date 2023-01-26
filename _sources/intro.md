@@ -1,3 +1,4 @@
+(sec:introduction)=
 # Introduction
 
 > Introductory Data Science (IDS) is an emerging field that uses methods from statistics, mathematics, and computer science to find and communicate meaning in data. Due to the rapidly increasing role of data in commerce and science, data science has gained wide attention in a relatively short amount of time in the private sector, government, and academia. In the private sector, job advertisements for data scientists have proliferated. 
@@ -46,6 +47,7 @@ Our second reading, from [Learning Data Science](http://www.textbook.ds100.org/i
   * [1.3. Understanding the Data](http://www.textbook.ds100.org/ch/01/lifecycle_data.html)
   * [1.4. Understanding the World](http://www.textbook.ds100.org/ch/01/lifecycle_world.html)
   
+(sec:languagelibraries)=
 ## Programming Language and Libraries
 
 We use [Python](https://www.python.org/) as the programming language, but do not assume the reader has any prior knowledge of Python or any programming experience.
