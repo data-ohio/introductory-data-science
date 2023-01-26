@@ -5,7 +5,7 @@ The data we collect (as in {numref}`sec:collect_data`) may not be in a usable fo
 It may have errors, missing values, etc. that need to be _cleaned_ before it can be _organized_ (as in {numref}`sec:organize`).
 The process of cleaning and organizing data is sometimes called _data wrangling_.
 
-Our readings, from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, go through this data wrangling process of cleaning and organizing data.
+Our first reading, from [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`, goes through this data wrangling process of cleaning and organizing data.
 * [9. Wrangling Dataframes](http://www.textbook.ds100.org/ch/09/wrangling_intro.html)
   * [9.1. Example: Wrangling CO2 Measurements from Mauna Loa Observatory](http://www.textbook.ds100.org/ch/09/wrangling_co2.html)
   * [9.2. Quality Checks](http://www.textbook.ds100.org/ch/09/wrangling_checks.html)
@@ -17,8 +17,25 @@ Our readings, from [Learning Data Science](http://www.textbook.ds100.org/) {cite
 ```{admonition} Reading Questions
 :class: important
 * If one bit of data is missing from a row (say, a person's age), what can you do about it?
+* What is imputation?
+```
+
+Our second set of readings are about *outliers*, which are points in the data that seem much different from the rest.
+* From [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), a general description of an [Outlier](https://en.wikipedia.org/wiki/Outlier)
+* From [Computational and Inferential Thinking](https://inferentialthinking.com/chapters/intro.html) {cite}`DATA8text`:
+  * [7. Visualization](https://inferentialthinking.com/chapters/07/Visualization.html) section **Scatter Plots** gives an example where the average gross income per movie of one actor is exceptionally high.
+  * [15.1.7. Correlation is Affected by Outliers](https://inferentialthinking.com/chapters/15/1/Correlation.html#correlation-is-affected-by-outliers) shows how correlation (which we will see in {numref}`sec:3_models`) can be affected by outliers.
+* From [Learning Data Science](http://www.textbook.ds100.org/) {cite}`DATA100text`:
+  * [10.3.2. One Qualitative and One Quantitative Variable](https://learningds.org/ch/10/eda_relationships.html#one-qualitative-and-one-quantitative-variable) illustrates how (suspected) outliers are shown as dots on bax plots.
+  * [11.1.1. Filling the Data Region](https://learningds.org/ch/11/viz_scale.html#filling-the-data-region) illustrates how treating outliers separately yields better visualizations.
+  * [18.2. Wrangling and Transforming](https://learningds.org/ch/18/donkey_clean.html) shows how to remove outliers (outlying donkeys) in preparation for modeling the relationships between variables.
+  
+
+```{admonition} Reading Questions
+:class: important
 * If your data file says that someone's age is 237, what should you do?
-* How do you convert `20160513` to the date `2016-05-13`?
+* If your data file says that someone's income is 100 times the next largest income, what should you do?
+* What is so special about C-3PO?
 ```
 
 ```{admonition} Further Resources

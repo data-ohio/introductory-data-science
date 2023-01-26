@@ -529,7 +529,7 @@ title="Print to PDF"
 <p>The data we collect (as in <a class="reference internal" href="../2/1_2_acquire_data.html#sec-collect-data"><span class="std std-numref">Section 1.2</span></a>) may not be in a usable form.
 It may have errors, missing values, etc. that need to be <em>cleaned</em> before it can be <em>organized</em> (as in <a class="reference internal" href="../3/organize_table.html#sec-organize"><span class="std std-numref">Section 1.3.2</span></a>).
 The process of cleaning and organizing data is sometimes called <em>data wrangling</em>.</p>
-<p>Our readings, from <a class="reference external" href="http://www.textbook.ds100.org/">Learning Data Science</a> <span id="id1">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span>, go through this data wrangling process of cleaning and organizing data.</p>
+<p>Our first reading, from <a class="reference external" href="http://www.textbook.ds100.org/">Learning Data Science</a> <span id="id1">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span>, goes through this data wrangling process of cleaning and organizing data.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="http://www.textbook.ds100.org/ch/09/wrangling_intro.html">9. Wrangling Dataframes</a></p>
 <ul>
@@ -546,14 +546,38 @@ The process of cleaning and organizing data is sometimes called <em>data wrangli
 <p class="admonition-title">Reading Questions</p>
 <ul class="simple">
 <li><p>If one bit of data is missing from a row (say, a person’s age), what can you do about it?</p></li>
+<li><p>What is imputation?</p></li>
+</ul>
+</div>
+<p>Our second set of readings are about <em>outliers</em>, which are points in the data that seem much different from the rest.</p>
+<ul class="simple">
+<li><p>From <a class="reference external" href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>, a general description of an <a class="reference external" href="https://en.wikipedia.org/wiki/Outlier">Outlier</a></p></li>
+<li><p>From <a class="reference external" href="https://inferentialthinking.com/chapters/intro.html">Computational and Inferential Thinking</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id10" title="Ani Adhikari, John DeNero, and David Wagner. Computational and Inferential Thinking: The Foundations of Data Science. Self published, 2021. URL: https://inferentialthinking.com/.">ADW21</a>]</span>:</p>
+<ul>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/07/Visualization.html">7. Visualization</a> section <strong>Scatter Plots</strong> gives an example where the average gross income per movie of one actor is exceptionally high.</p></li>
+<li><p><a class="reference external" href="https://inferentialthinking.com/chapters/15/1/Correlation.html#correlation-is-affected-by-outliers">15.1.7. Correlation is Affected by Outliers</a> shows how correlation (which we will see in <a class="reference internal" href="../../3/3_models.html#sec-3-models"><span class="std std-numref">Section 3</span></a>) can be affected by outliers.</p></li>
+</ul>
+</li>
+<li><p>From <a class="reference external" href="http://www.textbook.ds100.org/">Learning Data Science</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id11" title="Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science. Self published, 2023. To be published with O'Reilly Media in 2023. URL: http://www.textbook.ds100.org/.">LGN23</a>]</span>:</p>
+<ul>
+<li><p><a class="reference external" href="https://learningds.org/ch/10/eda_relationships.html#one-qualitative-and-one-quantitative-variable">10.3.2. One Qualitative and One Quantitative Variable</a> illustrates how (suspected) outliers are shown as dots on bax plots.</p></li>
+<li><p><a class="reference external" href="https://learningds.org/ch/11/viz_scale.html#filling-the-data-region">11.1.1. Filling the Data Region</a> illustrates how treating outliers separately yields better visualizations.</p></li>
+<li><p><a class="reference external" href="https://learningds.org/ch/18/donkey_clean.html">18.2. Wrangling and Transforming</a> shows how to remove outliers (outlying donkeys) in preparation for modeling the relationships between variables.</p></li>
+</ul>
+</li>
+</ul>
+<div class="important admonition">
+<p class="admonition-title">Reading Questions</p>
+<ul class="simple">
 <li><p>If your data file says that someone’s age is 237, what should you do?</p></li>
-<li><p>How do you convert <code class="docutils literal notranslate"><span class="pre">20160513</span></code> to the date <code class="docutils literal notranslate"><span class="pre">2016-05-13</span></code>?</p></li>
+<li><p>If your data file says that someone’s income is 100 times the next largest income, what should you do?</p></li>
+<li><p>What is so special about C-3PO?</p></li>
 </ul>
 </div>
 <div class="admonition-further-resources admonition">
 <p class="admonition-title">Further Resources</p>
 <ul class="simple">
-<li><p>From <a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/README.html">Python Programming for Data Science</a> <span id="id2">[<a class="reference internal" href="../../intro.html#id14" title="Tomas Beuzen. Python Programming for Data Science. Self-published, 2021. URL: https://www.tomasbeuzen.com/python-programming-for-data-science/README.html.">Beu21</a>]</span>:</p>
+<li><p>From <a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/README.html">Python Programming for Data Science</a> <span id="id4">[<a class="reference internal" href="../../intro.html#id14" title="Tomas Beuzen. Python Programming for Data Science. Self-published, 2021. URL: https://www.tomasbeuzen.com/python-programming-for-data-science/README.html.">Beu21</a>]</span>:</p>
 <ul>
 <li><p><a class="reference external" href="https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter8-wrangling-basics.html">Chapter 8: Basic Data Wrangling With Pandas</a></p>
 <ul>
@@ -565,7 +589,7 @@ The process of cleaning and organizing data is sometimes called <em>data wrangli
 </li>
 </ul>
 </li>
-<li><p>From the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id3">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span></p>
+<li><p>From the <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> <span id="id5">[<a class="reference internal" href="../../intro.html#id13" title="Jake VanderPlas. Python Data Science Handbook. O'Reilly Media, Inc., 2016. URL: https://jakevdp.github.io/PythonDataScienceHandbook/.">Van16</a>]</span></p>
 <ul>
 <li><p><a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html">3. Data Manipulation with Pandas</a></p>
 <ul>
