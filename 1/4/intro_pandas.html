@@ -560,13 +560,25 @@ So:</p>
 <div class="important admonition">
 <p class="admonition-title">Reading Questions</p>
 <ul>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">mydata</span></code> is a <code class="docutils literal notranslate"><span class="pre">pandas</span></code> <code class="docutils literal notranslate"><span class="pre">DataFrame</span></code>, then here are some things we can do with it:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">mydata['Hometown']</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mydata[mydata['Score']</span> <span class="pre">&lt;=</span> <span class="pre">20]</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mydata['Major']</span> <span class="pre">=</span> <span class="pre">['Art','Biology','Criminology','Math']</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mydata.groupby('Hometown')['Score'].sum()</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mydata[['Hometown','Major']]</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mydata.join(majorcodes,on='Major',how='inner')</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mydata['Hometown'].apply(len)</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mydata.sort_values('Hometown',ascending=False)</span></code></p></li>
+</ul>
+<p>Now suppose <code class="docutils literal notranslate"><span class="pre">mydata</span></code> is a <code class="docutils literal notranslate"><span class="pre">datascience</span></code> <code class="docutils literal notranslate"><span class="pre">Table</span></code>.
+How would you accomplish the same things?</p>
+</li>
 <li><p>If <code class="docutils literal notranslate"><span class="pre">mydata</span></code> is a <code class="docutils literal notranslate"><span class="pre">datascience</span></code> <code class="docutils literal notranslate"><span class="pre">Table</span></code>, then we have learned the following methods:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">mydata.column(&quot;Name&quot;)</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">mydata.relabeled(&quot;Name&quot;,&quot;name&quot;)</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">mydata.with_column(&quot;Age&quot;,agearray)</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">mydata.select(&quot;Name&quot;,&quot;Favorite</span> <span class="pre">Color&quot;)</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">mydata.drop(&quot;Hometown&quot;)</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">mydata.sort(&quot;Age&quot;)</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">mydata.where(&quot;Age&quot;,are_above(30))</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">mydata.apply(abs,&quot;Age&quot;)</span></code></p></li>

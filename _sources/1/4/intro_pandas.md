@@ -29,14 +29,27 @@ Our readings are from [Learning Data Science](http://www.textbook.ds100.org/) {c
   * [6.4. Transforming](http://www.textbook.ds100.org/ch/06/pandas_transforming.html)
 
 
+
+
 ```{admonition} Reading Questions
 :class: important
+* If `mydata` is a `pandas` `DataFrame`, then here are some things we can do with it:
+  * `mydata['Hometown']`
+  * `mydata[mydata['Score'] <= 20]`
+  * `mydata['Major'] = ['Art','Biology','Criminology','Math']`
+  * `mydata.groupby('Hometown')['Score'].sum()`
+  * `mydata[['Hometown','Major']]`
+  * `mydata.join(majorcodes,on='Major',how='inner')`
+  * `mydata['Hometown'].apply(len)`
+  * `mydata.sort_values('Hometown',ascending=False)`
+  
+  Now suppose `mydata` is a `datascience` `Table`. 
+  How would you accomplish the same things?
+
 * If `mydata` is a `datascience` `Table`, then we have learned the following methods:
   * `mydata.column("Name")`
-  * `mydata.relabeled("Name","name")`
   * `mydata.with_column("Age",agearray)`
   * `mydata.select("Name","Favorite Color")`
-  * `mydata.drop("Hometown")`
   * `mydata.sort("Age")`
   * `mydata.where("Age",are_above(30))`
   * `mydata.apply(abs,"Age")`
@@ -46,6 +59,8 @@ Our readings are from [Learning Data Science](http://www.textbook.ds100.org/) {c
   Now suppose `mydata` is a `pandas` `DataFrame`. 
   How would you accomplish the same things?
 ```
+%  * `mydata.relabeled("Name","name")`
+%  * `mydata.drop("Hometown")`
 
 
 
