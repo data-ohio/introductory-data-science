@@ -38,5 +38,7 @@ Our second reading, from the [Python Data Science Handbook](https://jakevdp.gith
 :class: important
 * When should one apply a rolling window to a time series?
 ```
-
+```{admonition} Further Resources
+See {numref}`sec:traditional_plots` for information on plotting with Matplotlib and Seaborn.
+```
 

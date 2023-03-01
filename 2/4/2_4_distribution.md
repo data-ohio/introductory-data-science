@@ -67,4 +67,6 @@ We will study such statistical models in {numref}`sec:statistical_model`.
     * [Histograms, Binnings, and Density](https://jakevdp.github.io/PythonDataScienceHandbook/04.05-histograms-and-binnings.html)
     * [Geographic Data with Basemap](https://jakevdp.github.io/PythonDataScienceHandbook/04.13-geographic-data-with-basemap.html)
 ```
-	
+```{admonition} Further Resources
+See {numref}`sec:traditional_plots` for information on plotting with Matplotlib and Seaborn.
+```	
