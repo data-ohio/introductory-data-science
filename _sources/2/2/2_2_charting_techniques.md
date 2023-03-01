@@ -51,3 +51,7 @@ Our second set of readings are from [Learning Data Science](http://www.textbook.
 * What is the difference between a histogram and a density plot?
 * How can you illustrate the relationship between a categorical feature and a numerical feature?
 ```
+
+```{admonition} Further Resources
+See {numref}`sec:traditional_plots` for information on plotting with Matplotlib and Seaborn.
+```

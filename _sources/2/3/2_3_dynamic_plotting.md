@@ -62,3 +62,6 @@ Our second readings, also from [Learning Data Science](http://www.textbook.ds100
 * What is a (topographical) map plot?
 * What is a (density) heat map?
 ```
+```{admonition} Further Resources
+See {numref}`sec:traditional_plots` for information on plotting with Matplotlib and Seaborn.
+```
