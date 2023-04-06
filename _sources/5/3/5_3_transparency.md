@@ -40,6 +40,17 @@ Our third reading, a 2021 blog post, discusses the dangers poor data ethics pose
 * If your data contradicts your hypothesis, should you still (try to) publlish it?
 ```
 
+Our fourth set of readings are Wikipedia's entries on 
+* [Data dredging](https://en.wikipedia.org/wiki/Data_dredging) (also known as *data snooping* or *p-hacking*)
+* [HARKing](https://en.wikipedia.org/wiki/HARKing)
+
+```{admonition} Reading Questions
+:class: important
+* Your friend finds a hedge fund that has outperformed the market for 10 years in a row and suggests that you invest in it. Did your friend engage in data dredging? 
+* You notice that when you drop heavy things on your foot, your foot hurts. Did you just engage in HARKing?
+```
+
+
 ```{admonition} Further Resources
 * Federal Data Strategy [Data Ethics Framework](https://resources.data.gov/assets/documents/fds-data-ethics-framework.pdf)
 * [5 Principles of Data Ethics for Business](https://online.hbs.edu/blog/post/data-ethics), a 2021 blog post.
