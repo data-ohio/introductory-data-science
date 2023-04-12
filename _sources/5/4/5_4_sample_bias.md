@@ -34,6 +34,15 @@ Our second reading, from [Learning Data Science](http://www.textbook.ds100.org/i
   * Which type of sampling bias does that affect?
 ```
 
+Our third readings, from Wikipedia, describe a type of bias that occurs for sensitive questions, and a technique to alleviate it:
+* [Participation Bias](https://en.wikipedia.org/wiki/Participation_bias)
+* [Randomized Response](https://en.wikipedia.org/wiki/Randomized_response)
+
+```{admonition} Reading Question
+:class: important
+* Applying the method of randomized response: 
+  * Did you have sex with a prostitute in the last month?
+```
 
 ```{admonition} Further Resources
 * [What is Sampling Bias + 5 Types of Sampling Bias](https://www.premise.com/blog/sampling-bias-what-you-need-to-know/), a 2021 blog post. 
