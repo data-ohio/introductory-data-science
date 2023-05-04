@@ -30,6 +30,8 @@ From within introductory-data-science, do
 
 ### To-Do List
 
+* For 1.2, it would be nice to show a way to import an .xlsx file into a `datascience.Table`. 
+  That may have to go via `pandas`.
 * 2.2 is supposed to have more on the visual effect of outliers.
   It is not clear how to do that since regression has not been covered yet.
 * [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html) has 
